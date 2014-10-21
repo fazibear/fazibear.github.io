@@ -17,6 +17,4 @@ window.addEventListener("load", function(){
     en.style.display = 'block';
     evt.preventDefault();
   });
-  
-  en.style.display = 'block';
 });

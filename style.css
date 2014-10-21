@@ -13,4 +13,4 @@ h4, h4 a    { color: #434343; font-size: 15px; margin: 0 0 15px 0;}
 .key        { color: #b4a7d6; }
 .value      { color: #cccccc; }
 .tags       { color: #CDA869; }
-#pl, #en    { display: none; }
+#pl         { display: none; }
