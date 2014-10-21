@@ -1,0 +1,254 @@
+<head>
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+  <title>cv.rb</title>
+  <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+  <link href='style.css' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+  <div class="center">
+    <h1><img class="avatar" src="http://www.gravatar.com/avatar/b5b8eec3fd886a7d72b3ac29368f5073.jpg?size=200" /></h1>
+    <h4>@fazibear</h4>
+    <h2>Michał Kalbarczyk</h2>
+    <h3>Software Developer</h3>
+    <h4>
+      <a id="en-link" href="#">english</a> | <a id="pl-link" href="#">polski</a>
+    </h4>
+  </div>
+  <pre class="center" id="en">
+<span class="title">@info</span> = {
+  <span class="key">name</span>:  '<span class="value">Michał Kalbarczyk</span>',
+  <span class="key">birth</span>: '<span class="value">12.02.1982</span>',
+  <span class="key">profile</span>: %[
+    <span class="value">Extensive experience in designing, programming,
+    maintenance and optimization of dynamic
+    asynchronous backend system based on
+    Ruby, Ruby On Rails, Sinatra, JavaScript, 
+    JSON, AMQP, SQL, NoSQL. Interests to new technologies, 
+    creativity, and great desire for self-improvment.</span>
+  ],
+  <span class="key">skills</span>: %w[
+    <span class="tags">ruby rails rspec javascript nodejs mysql redis
+    resque memcache AMQP JSON XML HTML CSS GIT SVN
+    sinatra osx linux</span>
+  ]
+}
+
+<span class="title">@expirience</span> = [
+  {
+    <span class="key">comany</span>:   '<span class="value">Arena.pl</span>',
+    <span class="key">position</span>: '<span class="value">Senior Ruby Developer</span>',
+    <span class="key">date</span>:     '<span class="value">03.2014</span>',
+    <span class="key">skills</span>: %w[
+      <span class="tags">ruby rails javascript jquery solr resque 
+      rspec redis mysql spree memcache JSON GIT 
+      varnish haproxy docker</span>
+    ],
+    <span class="key">description</span>: %[
+      <span class="value">Designing, creating and developing
+      Arena.pl site</span> ],
+  },
+  {
+    <span class="key">company</span>:  '<span class="value">Cubiware Sp. z o. o.</span>',
+    <span class="key">position</span>: '<span class="value">Senior Ruby Developer</span>',
+    <span class="key">date</span>:     '<span class="value">03.2013</span>'..'<span class="value">03.2014</span>',
+    <span class="key">skills</span>: %w[
+      <span class="tags">ruby rails sinatra resque rspec redis mysql
+      memcache JSON XML XMLRPC GIT varnish haproxy</span>
+    ],
+    <span class="key">description</span>: %[
+      <span class="value">Development and maintenance of backend service for
+      cable television set-top boxes
+      performance testing, optimization</span> ],
+  },
+  {
+    <span class="key">company</span>:  '<span class="value">GG Network S.A.</span>',
+    <span class="key">position</span>: '<span class="value">Ruby / Javascript Developer</span>',
+    <span class="key">date</span>:     '<span class="value">05.2008</span>'..'<span class="value">02.2013</span>',
+    <span class="key">skills</span>: %w[
+      <span class="tags">ruby rails rspec javascript AMQP redis mysql 
+      sphinx memcache JSON SVN varnish haproxy SVN</span>
+    ],
+    <span class="key">description</span>: %[
+      <span class="value">Blip.pl (polish twitter-like microblog).
+      Designing, development, optimization, maintenance, testing</span> ],
+  },
+  {
+    <span class="key">company</span>:  '<span class="value">Activeweb Medical Solutions</span>',
+    <span class="key">position</span>: '<span class="value">Ruby / Javascript Developer</span>',
+    <span class="key">date</span>:     '<span class="value">10.2007</span>'..'<span class="value">07.2007</span>',
+    <span class="key">skills</span>: %w[
+      <span class="tags">ruby rails mysql AJAX REST SOAP 
+      OpenID WAP SVN flash SVN</span>
+    ],
+    <span class="key">description</span>: %[
+      <span class="value">Designing and developing varoius internet sites</span> ],
+  },
+  {
+    <span class="key">company</span>:  '<span class="value">EO Networks</span>',
+    <span class="key">position</span>: '<span class="value">Lead Web Developer / Java EE Developer</span>',
+    <span class="key">date</span>:     '<span class="value">11.2004</span>'..'<span class="value">07.2007</span>',
+    <span class="key">skills</span>: %w[
+      <span class="tags">j2ee hibernate spring velocity postgreSQL 
+      javascript HTML CSS XML XSLT selenium SVN</span>
+    ],
+    <span class="key">description</span>: %[
+      <span class="value">Developing and maintaining Java EE application
+      Developing and testing layout and templates layer
+      Code supervision
+      Analysis of customer requirements</span> ],
+  }  
+]
+
+<span class="title">@education</span> = [
+  {
+    <span class="key">date</span>:       '<span class="value">2003</span>'..'<span class="value">2007</span>',
+    <span class="key">school</span>:     '<span class="value">Warszawska Wyższa Szkoła Informatyki</span>',
+    <span class="key">speciality</span>: '<span class="value">Software Engineering</span>',
+    <span class="key">courses</span>: [
+      '<span class="value">CCNA Course 1-2</span>',
+      '<span class="value">Windows 2003 Server Administration Course</span>' ]
+  },
+  {
+    <span class="key">date</span>:       '<span class="value">2002</span>'..'<span class="value">2003</span>',
+    <span class="key">school</span>:     '<span class="value">Studium Ekonomii I Biznesu</span>',
+    <span class="key">speciality</span>: '<span class="value">Programming and Databases</span>',
+  },    
+  {
+    <span class="key">date</span>:       '<span class="value">1997</span>'..'<span class="value">2002</span>',
+    <span class="key">school</span>:     '<span class="value">Technikum Elektroniczno Mechaniczne</span>',
+    <span class="key">speciality</span>: '<span class="value">General Electronics</span>',   
+  },
+]
+
+<span class="title">@links</span> = %w[
+  <a href="https://github.com/fazibear">https://github.com/fazibear</a>
+  <a href="https://soundcloud.com/fazibear">https://soundcloud.com/fazibear</a>
+]
+
+<span class="title">@hobbies</span> = %w[
+  <span class="tags">music guitar vst daw midi mix mastering recording
+  osx ios android objectiveC go elixir
+  films DYI elektronics</span>
+]
+  </pre>
+  <pre class="center" id="pl">
+<span class="title">@info</span> = {
+  <span class="key">name</span>:  '<span class="value">Michał Kalbarczyk</span>',
+  <span class="key">birth</span>: '<span class="value">12.02.1982</span>',
+  <span class="key">profile</span>: %[
+    <span class="value">Duże doświadczenie w projektowaniu, programowaniu, 
+    utrzymaniu i optymalizacji dynamicznych 
+    asynchronicznych systemów backendowych opartych o
+    technologie Ruby, Ruby On Rails, Sinatra,
+    JavaScript, JSON, AMQP, SQL, NoSQL. Otwartość na
+    nowe technologie, kreatywność, duże chęci rozwoju.</span>
+  ],
+  <span class="key">skills</span>: %w[
+    <span class="tags">ruby rails rspec javascript nodejs mysql redis
+    resque memcache AMQP JSON XML HTML CSS GIT SVN
+    sinatra osx linux</span>
+  ]
+}
+
+<span class="title">@expirience</span> = [
+  {
+    <span class="key">comany</span>:   '<span class="value">Arena.pl</span>',
+    <span class="key">position</span>: '<span class="value">Senior Ruby Developer</span>',
+    <span class="key">date</span>:     '<span class="value">03.2014</span>',
+    <span class="key">skills</span>: %w[
+      <span class="tags">ruby rails javascript jquery solr resque 
+      rspec redis mysql spree memcache JSON GIT 
+      varnish haproxy docker</span>
+    ],
+    <span class="key">description</span>: %[
+      <span class="value">Projektowanie, tworzenie i rozwijanie 
+      serwisu Arena.pl</span> ],
+  },
+  {
+    <span class="key">company</span>:  '<span class="value">Cubiware Sp. z o. o.</span>',
+    <span class="key">position</span>: '<span class="value">Senior Ruby Developer</span>',
+    <span class="key">date</span>:     '<span class="value">03.2013</span>'..'<span class="value">03.2014</span>',
+    <span class="key">skills</span>: %w[
+      <span class="tags">ruby rails sinatra resque rspec redis mysql
+      memcache JSON XML XMLRPC GIT varnish haproxy</span>
+    ],
+    <span class="key">description</span>: %[
+      <span class="value">Rozwój i utrzymanie backendu dla oprogramowania
+      dekoderów telewizji kablowych
+      testy wydajności, optymalizacja</span> ],
+  },
+  {
+    <span class="key">company</span>:  '<span class="value">GG Network S.A.</span>',
+    <span class="key">position</span>: '<span class="value">Ruby / Javascript Developer</span>',
+    <span class="key">date</span>:     '<span class="value">05.2008</span>'..'<span class="value">02.2013</span>',
+    <span class="key">skills</span>: %w[
+      <span class="tags">ruby rails rspec javascript AMQP redis mysql 
+      sphinx memcache JSON SVN varnish haproxy SVN</span>
+    ],
+    <span class="key">description</span>: %[
+      <span class="value">Serwis Blip.pl (microblog).
+      Tworzenie, rozwój, optymalizacja, 
+      utrzymanie, testy</span> ],
+  },
+  {
+    <span class="key">company</span>:  '<span class="value">Activeweb Medical Solutions</span>',
+    <span class="key">position</span>: '<span class="value">Ruby / Javascript Developer</span>',
+    <span class="key">date</span>:     '<span class="value">10.2007</span>'..'<span class="value">07.2007</span>',
+    <span class="key">skills</span>: %w[
+      <span class="tags">ruby rails mysql AJAX REST SOAP 
+      OpenID WAP SVN flash SVN</span>
+    ],
+    <span class="key">description</span>: %[
+      <span class="value">Projektowanie i rozwój aplikacji internetowych</span> ],
+  },
+  {
+    <span class="key">company</span>:  '<span class="value">EO Networks</span>',
+    <span class="key">position</span>: '<span class="value">Lead Web Developer / Java EE Developer</span>',
+    <span class="key">date</span>:     '<span class="value">11.2004</span>'..'<span class="value">07.2007</span>',
+    <span class="key">skills</span>: %w[
+      <span class="tags">j2ee hibernate spring velocity postgreSQL 
+      javascript HTML CSS XML XSLT selenium SVN</span>
+    ],
+    <span class="key">description</span>: %[
+      <span class="value">Rozwijanie i utrzymywanie aplikacji w Java EE
+      Rozwijanie i testy warstwy layoutu i szablonów
+      Nadzór nad poprawnością kodu
+      Zarządzanie grupą web developerów
+      Analiza wymagań klienta</span> ],
+  }  
+]
+
+<span class="title">@education</span> = [
+  {
+    <span class="key">date</span>:       '<span class="value">2003</span>'..'<span class="value">2007</span>',
+    <span class="key">school</span>:     '<span class="value">Warszawska Wyższa Szkoła Informatyki</span>',
+    <span class="key">speciality</span>: '<span class="value">Inżynieria Oprogramowania</span>',
+    <span class="key">courses</span>: [
+      '<span class="value">CCNA Course 1-2</span>',
+      '<span class="value">Windows 2003 Server Administration Course</span>' ]
+  },
+  {
+    <span class="key">date</span>:       '<span class="value">2002</span>'..'<span class="value">2003</span>',
+    <span class="key">school</span>:     '<span class="value">Studium Ekonomii I Biznesu</span>',
+    <span class="key">speciality</span>: '<span class="value">Programowanie i Bazy Danych</span>',
+  },    
+  {
+    <span class="key">date</span>:       '<span class="value">1997</span>'..'<span class="value">2002</span>',
+    <span class="key">school</span>:     '<span class="value">Technikum Elektroniczno Mechaniczne</span>',
+    <span class="key">speciality</span>: '<span class="value">Elektronika Ogólna</span>',   
+  },
+]
+
+<span class="title">@links</span> = %w[
+  <a href="https://github.com/fazibear">https://github.com/fazibear</a>
+  <a href="https://soundcloud.com/fazibear">https://soundcloud.com/fazibear</a>
+]
+
+<span class="title">@hobbies</span> = %w[
+  <span class="tags">muzyka gitara vst daw midi mix mastering recording
+  osx ios android objectiveC go elixir
+  filmy majsterkowanie elektronika</span>
+]
+  </pre>
+</body>
