@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="refresh" content="1;url=http://fazibear.github.io">
     <script type="text/javascript">
-      window.location.href = "http://fazibear.github.io"
+      if(window.top){
+        window.top.location.href = "http://fazibear.github.io";
+      }else{
+        window.location.href = "http://fazibear.github.io";
+      }
     </script>
     <title>Page Redirection</title>
   </head>
