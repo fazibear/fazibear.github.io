@@ -1,9 +1,9 @@
 html        { background-image: url('wallpaper.jpg'); background-attachment: fixed; }
-body        { color: #ffffff; background-color: rgba(24,24,24,0.8); font-family: 'Droid Sans Mono'; margin: 0; }
+body        { color: #ffffff; background-color: rgba(24,24,24,0.8); font-family: 'Droid Sans Mono'; margin: 0; padding: 20px 0;}
 pre         { color: #434343; font-family: 'Droid Sans Mono'; font-size: 15px;}
 pre a       { color: #cccccc; }
 h1,h2,h3,h4 { text-align: center; font-weight: normal}
-h1          { margin: 0 0 0 0; padding: 20px 0 0 0;}
+h1          { margin: 0 0 0 0; padding: 0 0 0 0;}
 h2          { font-size: 40px; margin: 20px 0 0 0;}
 h3          { margin: 0 0 0 0;}
 h4, h4 a    { color: #434343; font-size: 15px; margin: 0 0 15px 0;}
