@@ -2,7 +2,7 @@
 layout: post
 title: UWA Google Suggest
 date: '2008-03-14T13:54:00.003+01:00'
-author: FaziBear
+
 tags:
 - javascript
 - netvibes

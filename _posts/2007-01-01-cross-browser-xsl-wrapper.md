@@ -2,7 +2,6 @@
 layout: post
 title: Cross Browser XSL Wrapper
 date: '2007-01-01T19:33:00.000+01:00'
-author: FaziBear
 tags:
 - javascript
 - xslt

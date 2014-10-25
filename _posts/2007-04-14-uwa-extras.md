@@ -2,7 +2,7 @@
 layout: post
 title: UWA Extras
 date: '2007-04-14T15:13:00.000+02:00'
-author: FaziBear
+
 tags:
 - javascript
 - netvibes

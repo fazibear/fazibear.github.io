@@ -2,7 +2,7 @@
 layout: post
 title: File.modify!
 date: '2007-05-09T19:18:00.001+02:00'
-author: FaziBear
+
 tags:
 - ruby
 - tips

@@ -2,7 +2,7 @@
 layout: post
 title: Cross Domain Request
 date: '2007-01-01T19:27:00.000+01:00'
-author: FaziBear
+
 tags:
 - javascript
 ---

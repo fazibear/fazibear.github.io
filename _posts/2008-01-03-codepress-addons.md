@@ -2,7 +2,7 @@
 layout: post
 title: CodePress Addons
 date: '2008-01-03T16:40:00.002+01:00'
-author: FaziBear
+
 tags:
 - javascript
 - codepress

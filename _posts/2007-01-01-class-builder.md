@@ -2,7 +2,6 @@
 layout: post
 title: Class Builder
 date: '2007-01-01T19:22:00.000+01:00'
-author: FaziBear
 tags:
 - javascript
 ---

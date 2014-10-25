@@ -2,7 +2,7 @@
 layout: post
 title: Processing Mac Sudden Motion Sensor with RubyInline
 date: '2008-12-08T16:11:00.018+01:00'
-author: FaziBear
+
 tags:
 - ruby
 - mac

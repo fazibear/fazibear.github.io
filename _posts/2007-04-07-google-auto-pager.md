@@ -2,7 +2,7 @@
 layout: post
 title: Google Auto Pager
 date: '2007-04-07T18:55:00.000+02:00'
-author: FaziBear
+
 tags:
 - javascript
 - greasemonkey

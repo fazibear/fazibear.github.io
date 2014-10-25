@@ -2,7 +2,7 @@
 layout: post
 title: GEdit With Multi Terminal
 date: '2008-04-29T15:46:00.008+02:00'
-author: FaziBear
+
 tags:
 - gedit
 - python

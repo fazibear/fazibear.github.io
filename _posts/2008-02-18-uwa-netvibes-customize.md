@@ -2,7 +2,7 @@
 layout: post
 title: UWA Netvibes Customize
 date: '2008-02-18T19:31:00.004+01:00'
-author: FaziBear
+
 tags:
 - javascript
 - netvibes

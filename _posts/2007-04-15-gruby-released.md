@@ -2,7 +2,7 @@
 layout: post
 title: GRuby released
 date: '2007-04-15T16:35:00.001+02:00'
-author: FaziBear
+
 tags:
 - ruby
 - gem

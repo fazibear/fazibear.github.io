@@ -2,7 +2,7 @@
 layout: post
 title: Blogger Syntax Highlighter
 date: '2007-09-03T15:42:00.000+02:00'
-author: FaziBear
+
 tags:
 - javascript
 - blogger

@@ -2,7 +2,7 @@
 layout: post
 title: Ivo Reader
 date: '2007-09-17T15:43:00.000+02:00'
-author: FaziBear
+
 tags:
 - ruby
 ---
