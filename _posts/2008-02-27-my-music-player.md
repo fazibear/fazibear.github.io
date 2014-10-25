@@ -1,8 +1,6 @@
 ---
 layout: post
 title: My Music Player
-date: '2008-02-27T13:57:00.009+01:00'
-
 tags:
 - javascript
 - appjet

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Netvibes Modules Are Unavaiable
-date: '2007-06-18T17:50:00.001+02:00'
-
 tags:
 - netvibes
 ---

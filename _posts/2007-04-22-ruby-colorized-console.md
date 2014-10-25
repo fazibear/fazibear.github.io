@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Ruby Colorized Console
-date: '2007-04-22T12:58:00.001+02:00'
-
 tags:
 - ruby
 - gem

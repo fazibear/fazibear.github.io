@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Clear Terminal Window with Ruby
-date: '2007-05-31T01:20:00.001+02:00'
-
 tags:
 - ruby
 - tips

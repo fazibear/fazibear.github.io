@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Generating Methods in Ruby
-date: '2008-02-29T12:24:00.009+01:00'
-
 tags:
 - ruby
 - tips

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Metal Releases ICalendar
-date: '2007-01-01T19:45:00.000+01:00'
-
 tags:
 - ruby
 - music

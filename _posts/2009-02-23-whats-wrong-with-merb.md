@@ -1,8 +1,6 @@
 ---
 layout: post
 title: What's wrong with merb ?
-date: '2009-02-23T21:31:00.003+01:00'
-
 tags:
 - ruby
 - merb

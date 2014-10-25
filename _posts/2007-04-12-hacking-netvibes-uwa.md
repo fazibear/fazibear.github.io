@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Hacking Netvibes UWA
-date: '2007-04-12T19:55:00.000+02:00'
-
 tags:
 - javascript
 - netvibes

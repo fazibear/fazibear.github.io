@@ -1,8 +1,6 @@
 ---
 layout: post
 title: iGoogle Customize
-date: '2007-08-03T21:11:00.000+02:00'
-
 tags:
 - javascript
 - igoogle

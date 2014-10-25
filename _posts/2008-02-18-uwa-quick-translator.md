@@ -1,8 +1,6 @@
 ---
 layout: post
 title: UWA Quick Translator
-date: '2008-02-18T21:18:00.003+01:00'
-
 tags:
 - javascript
 - netvibes

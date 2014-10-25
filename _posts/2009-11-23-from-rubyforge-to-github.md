@@ -1,7 +1,6 @@
 ---
 layout: post
 title: from rubyforge to github
-date: '2009-11-23T16:45:00.000+01:00'
 tags: 
 ---
 

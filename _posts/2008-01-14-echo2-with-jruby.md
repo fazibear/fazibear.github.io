@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Echo2 with JRuby
-date: '2008-01-14T12:16:00.000+01:00'
-
 tags:
 - ruby
 - java

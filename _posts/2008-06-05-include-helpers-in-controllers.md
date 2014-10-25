@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Include helpers in controllers
-date: '2008-06-05T13:59:00.008+02:00'
-
 tags:
 - ruby
 - rails

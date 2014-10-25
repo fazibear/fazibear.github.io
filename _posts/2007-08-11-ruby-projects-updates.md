@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Ruby Projects Updates
-date: '2007-08-11T13:45:00.001+02:00'
-
 tags:
 - ruby
 - gem

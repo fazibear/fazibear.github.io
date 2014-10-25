@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Metal Releases ICalendar v2
-date: '2008-02-10T16:28:00.003+01:00'
-
 tags:
 - javascript
 - appjet
