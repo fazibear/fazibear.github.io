@@ -1,0 +1,11 @@
+---
+layout: default
+header: Blog
+---
+<h4>{{ page.date | date: "%-d %b %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</h4>
+
+<article>
+  {{ content }}
+</article>
+
+{% include comments.html %}

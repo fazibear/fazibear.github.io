@@ -1,12 +1,13 @@
 html        { background-image: url('wallpaper.jpg'); background-attachment: fixed; }
-body        { color: #ffffff; background-color: rgba(24,24,24,0.8); font-family: 'Droid Sans Mono'; margin: 0; padding: 20px 0;}
-pre         { color: #434343; font-family: 'Droid Sans Mono'; font-size: 15px;}
+body        { font-size: 14px; color: #ffffff; background-color: rgba(24,24,24,0.8); font-family: 'Droid Sans Mono'; margin: 0; padding: 20px 0;}
+a, a:visited, 
 pre a       { color: #cccccc; }
 h1,h2,h3,h4 { text-align: center; font-weight: normal}
 h1          { margin: 0 0 0 0; padding: 0 0 0 0;}
 h2          { font-size: 40px; margin: 20px 0 0 0;}
-h3          { margin: 0 0 0 0;}
+h3          { font-size: 25px; margin: 0 0 0 0;}
 h4, h4 a    { color: #434343; font-size: 15px; margin: 0 0 15px 0;}
+p           { font-size: 14px;}
 .center     { width: 500px; margin: 0px auto; }
 .avatar     { border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; }
 .title      { color: #6fa8dc; }
@@ -14,3 +15,9 @@ h4, h4 a    { color: #434343; font-size: 15px; margin: 0 0 15px 0;}
 .value      { color: #cccccc; }
 .tags       { color: #CDA869; }
 #pl         { display: none; }
+blockquote  { border: 2px solid #3f3f3f; margin: 20px; padding: 5px 20px; border-radius: 25px; overflow: auto;}
+pre, code   { color:#fdce93; font-family: 'Droid Sans Mono'; font-size: 12px;} 
+code        { border: 2px solid #3f3f3f; padding: 2px 8px; border-radius: 25px; overflow: auto; }
+pre         { border: 2px solid #3f3f3f; margin: 20px; padding: 20px 20px; border-radius: 25px; overflow: auto; }
+pre code    { border: 0; padding: 0; margin: 0;}
+pre.resume  { color: #3f3f3f;}
