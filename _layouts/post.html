@@ -2,7 +2,7 @@
 layout: default
 header: Blog
 ---
-<h4>{{ page.date | date: "%-d %b %Y" }}{% if page.tags.size > 0 %} • {{ page.tags | join: ' • ' }}{% endif %}</h4>
+<h4>{{ page.date | date_to_long_string }}{% if page.tags.size > 0 %} • {{ page.tags | join: ' • ' }}{% endif %}</h4>
 <article>
   {{ content }}
 </article>
