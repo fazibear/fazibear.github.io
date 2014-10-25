@@ -21,3 +21,5 @@ code        { border: 2px solid #3f3f3f; padding: 2px 8px; border-radius: 25px; 
 pre         { border: 2px solid #3f3f3f; margin: 20px; padding: 20px 20px; border-radius: 25px; overflow: auto; }
 pre code    { border: 0; padding: 0; margin: 0;}
 pre.resume  { color: #3f3f3f;}
+ul.archive  { margin: 10px 0; list-style-type: none;}
+footer      { text-align: center; color: #434343;}

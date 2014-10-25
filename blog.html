@@ -1,13 +1,15 @@
 ---
 layout: default
 header: Blog
+title: Archive
 ---
-<h4>Archive</h4>
+<ul class="archive">
 {% for post in site.posts %}
   <li>
     <span class="post-meta">{{ post.date | date: "%d-%m-%Y" }}</span>
     <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
   </li>
 {% endfor %}
+</ul>
 
 <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
