@@ -8,7 +8,7 @@ tags:
 
 This simple ruby script parse [http://www.metalstorm.ee/](http://www.metalstorm.ee/) and create ical file with new and upcoming releases.
 
-<del>You can find it [here](http://fazibear.xmgfree.com/scripts/metalstorm-releases.cgi).<br />If you want to see it in action, click [here](http://www.google.com/calendar/embed?src=cv176ji4gaam7c3hbg391cdbct14o9ji%40import.calendar.google.com" target="_blank).</del>
+<del>You can find it [here](http://fazibear.xmgfree.com/scripts/metalstorm-releases.cgi).<br />If you want to see it in action, click [here](http://www.google.com/calendar/embed?src=cv176ji4gaam7c3hbg391cdbct14o9ji%40import.calendar.google.com").</del>
 
 Because of hosting problem, script is unavailable, but check new version [here](http://metalstorm-releases.appjet.net/calendar.ics).
 
