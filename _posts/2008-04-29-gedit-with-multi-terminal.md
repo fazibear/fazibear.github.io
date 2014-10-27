@@ -12,7 +12,7 @@ How to install ? Copy all files to `~/.gnome2/gedit/plugins`, disable terminal p
 
 How to use it ? To add new terminal right-click on terminal window and choose 'New Terminal'. If you want to remove it, right-click and choose 'Remove Terminal'.
 
-<del>Plugin/Sources are located [here](http://fazibear.googlepages.com/mterminal.tar.gz).</del>
+<del>Plugin/Sources are located [here](http://fazibear.googlepages.com/mterminal.tar.gz)</del>.
 
 I hope you like it.
 
