@@ -7,4 +7,4 @@ tags:
 - uwa
 ---
 
-Google Suggest is now UWA style widget. Check <a href="http://eco.netvibes.com/widgets/110/google-suggest">this</a> out.
+Google Suggest is now UWA style widget. Check [this](http://eco.netvibes.com/widgets/110/google-suggest) out.

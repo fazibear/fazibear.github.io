@@ -7,7 +7,7 @@ tags:
 ---
 
 I wrote a simple ruby string class extension to displays console colors easier using ANSI escape sequences.
-Links for <a href="http://rubyforge.org/projects/colorize/">project page</a>, and <a href="http://colorize.rubyforge.org/">documentation page</a>.
+Links for [project page](http://rubyforge.org/projects/colorize/), and [documentation page](http://colorize.rubyforge.org/).
 
 Install:
 

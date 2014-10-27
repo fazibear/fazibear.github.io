@@ -7,7 +7,7 @@ tags:
 - jruby
 ---
 
-I want to play with jruby, and I rewrite a numberguess example application from <a href="http://echo.nextapp.com/site/echo2">Echo2</a> framework into Ruby using JRuby.
+I want to play with jruby, and I rewrite a numberguess example application from [Echo2](http://echo.nextapp.com/site/echo2) framework into Ruby using JRuby.
 Let's see...
 First we need to rewrite a NumberGuessServlet to load a NumberGuessApp ruby class instead of java class.
 
@@ -160,15 +160,15 @@ Static variables like colors should looks like this:
 @guess_entry_field.foreground = Echo2::Color::WHITE
 ```
 
-All source files are <a href="http://fazibear.googlepages.com/echo2_numberguess.tar.gz">here</a>.
+All source files are [here](http://fazibear.googlepages.com/echo2_numberguess.tar.gz).
 If you want to run it download all required jar files and copy it to lib.
 
- - <a href="http://repo1.maven.org/maven2/org/jruby/jruby-complete/1.0.3/jruby-complete-1.0.3.jar">JRuby 1.0.3</a>
- - <a href="http://mirrors.ibiblio.org/pub/mirrors/maven2/servletapi/servlet-api/2.4/servlet-api-2.4.jar">Servlet Api 2.4</a>
+ - [JRuby 1.0.3](http://repo1.maven.org/maven2/org/jruby/jruby-complete/1.0.3/jruby-complete-1.0.3.jar)
+ - [Servlet Api 2.4](http://mirrors.ibiblio.org/pub/mirrors/maven2/servletapi/servlet-api/2.4/servlet-api-2.4.jar)
  - Echo2_App.jar
  - Echo2_WebContainer.jar
  - Echo2_WebRender.jar
  
-Echo2 files are from <a href="http://download.nextapp.com/downloads/echo2/2.0.0/NextApp_Echo2.tgz">echo2</a> package.
+Echo2 files are from [echo2](http://download.nextapp.com/downloads/echo2/2.0.0/NextApp_Echo2.tgz) package.
 Start ant.
 Copy a war file into your application server and launch it.

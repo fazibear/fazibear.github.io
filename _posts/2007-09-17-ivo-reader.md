@@ -5,7 +5,7 @@ tags:
 - ruby
 ---
 
-This is a ruby rewrite of ivonka.sh script. This simple script read data from standard input or command line parameters using <a href="http://say.expressivo.com/">say.expressivo.com</a> text to speech reader.
+This is a ruby rewrite of ivonka.sh script. This simple script read data from standard input or command line parameters using [say.expressivo.com](http://say.expressivo.com/) text to speech reader.
 
 Features:
 
@@ -15,7 +15,7 @@ Features:
 - files are player directly from internet
 - mplayer as default player
 
-Script can be downloaded from <a href="http://fazibear.googlepages.com/ivo.rb">here</a>.
+Script can be downloaded from [here](http://fazibear.googlepages.com/ivo.rb).
 
 Simple usage:
 

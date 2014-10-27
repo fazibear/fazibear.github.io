@@ -20,4 +20,4 @@ proc.setParameter( null, 'foo', 'bar' );
 document.getElementById('content').innerHTML = proc.transformText( xml );
 ```
 
-You can get it <a href="http://fazibear.googlepages.com/xslWrapper.zip">here</a>.
+You can get it [here](http://fazibear.googlepages.com/xslWrapper.zip).

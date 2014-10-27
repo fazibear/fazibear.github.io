@@ -7,8 +7,8 @@ tags:
 - music
 ---
 
-Another application written in javasctipt, using <a href="http://appjet.com/">AppJet</a> solution. This one is simple application for browsing myspace music profiles and listen music. Big different is that you don't need to wait for whole ugly myspace page. Type band name, click search and press play on player :) Easy ? Take a look under player, there are similar artists. This might be helpful.
+Another application written in javasctipt, using [AppJet](http://appjet.com/) solution. This one is simple application for browsing myspace music profiles and listen music. Big different is that you don't need to wait for whole ugly myspace page. Type band name, click search and press play on player :) Easy ? Take a look under player, there are similar artists. This might be helpful.
 
-<del>Want use it ? Go for it <a href="http://mymusic.appjet.net/">here</a> or take a look at <a href="http://source.mymusic.appjet.net/">source code</a></del>.
+<del>Want use it ? Go for it [here](http://mymusic.appjet.net/) or take a look at [source code](http://source.mymusic.appjet.net/)</del>.
 
-AppJet is down, there is a new version <a href="{{ site.baseurl }}{% post_url 2009-11-13-my-player-20 %}">here</a>.
+AppJet is down, there is a new version [here]({{ site.baseurl }}{% post_url 2009-11-13-my-player-20 %}).

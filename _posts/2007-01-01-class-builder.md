@@ -30,4 +30,4 @@ alert( bar.getFoobar() );
 ```
 
 Notice that constructor have same name as class name :)
-You can download it <a href="http://fazibear.googlepages.com/classBuilder.zip">here</a>.
+You can download it [here](http://fazibear.googlepages.com/classBuilder.zip).

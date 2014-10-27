@@ -14,9 +14,9 @@ Sorry, all my netvibes modules are temporarily unavailable because traffic limit
 They will return next month, or maybe earlier if I find new hosting.
 Be patient, Sorry.
 
-<del>Right now all modules are moved here: http://fazibear.ifastnet.com/netvibes/*.xhtml example: <a href="http://fazibear.ifastnet.com/netvibes/customize.xhtml">http://fazibear.ifastnet.com/netvibes/customize.xhtml</a></del>
+<del>Right now all modules are moved here: http://fazibear.ifastnet.com/netvibes/*.xhtml example: [http://fazibear.ifastnet.com/netvibes/customize.xhtml](http://fazibear.ifastnet.com/netvibes/customize.xhtml)</del>
   
-All modules are moved here: <a href="http://netvibes.atspace.com/">http://netvibes.atspace.com</a> example: <a href="http://netvibes.atspace.com/customize.html">http://netvibes.atspace.com/customize.html</a>
+All modules are moved here: [http://netvibes.atspace.com](http://netvibes.atspace.com/) example: [http://netvibes.atspace.com/customize.html](http://netvibes.atspace.com/customize.html)
 
 This hosting should be better, they offer:
 

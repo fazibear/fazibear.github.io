@@ -42,7 +42,7 @@ alert(extras.document.URL);
 alert(extras.document.title);
 ```
 
-Check out working example: <a href="http://www.netvibes.com/subscribe.php?module=UWA&moduleUrl=http%3A%2F%2Ffazibear.googlepages.com%2Fuwaextras.html">here</a>.
+Check out working example: [here](http://www.netvibes.com/subscribe.php?module=UWA&moduleUrl=http%3A%2F%2Ffazibear.googlepages.com%2Fuwaextras.html).
 
 Works only in Netvibes environment.
 So. Now we have a lot of new options to make some interesting widget :)

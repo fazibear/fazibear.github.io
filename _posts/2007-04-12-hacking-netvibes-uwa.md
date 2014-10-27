@@ -32,4 +32,4 @@ Body tag:
 ```
 This example works only with netvibes, with google window point to iframe :/
 
-Check out example module <a href="http://www.netvibes.com/subscribe.php?module=UWA&amp;moduleUrl=http%3A%2F%2Ffazibear.googlepages.com%2Fuwahack.html">here</a>.
+Check out example module [here](http://www.netvibes.com/subscribe.php?module=UWA&amp;moduleUrl=http%3A%2F%2Ffazibear.googlepages.com%2Fuwahack.html).

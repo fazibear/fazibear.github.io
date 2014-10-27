@@ -15,4 +15,4 @@ crossDomainRequest.request(
   }
 );
 ```
-Available <a href="http://fazibear.googlepages.com/crossDomainRequest.zip">here</a>.
+Available [here](http://fazibear.googlepages.com/crossDomainRequest.zip).

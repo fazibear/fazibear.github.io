@@ -8,8 +8,8 @@ tags:
 
 My first version of Gadu-Gadu protocol implementation in Ruby released.
 
-<a href="http://gruby.rubyforge.org/">Here</a> is very very small portion of documentation ;)
-You can download it form <a href="http://rubyforge.org/projects/Gruby">rubyforge</a>.
+[Here](http://gruby.rubyforge.org/) is very very small portion of documentation ;)
+You can download it form [rubyforge](http://rubyforge.org/projects/Gruby).
 Or install it via rubygems:
 
 `# gem install GRuby`
