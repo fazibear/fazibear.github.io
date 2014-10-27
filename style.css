@@ -7,8 +7,8 @@ h1          { margin: 0 0 0 0; padding: 0 0 0 0;}
 h2          { font-size: 40px; margin: 20px 0 0 0;}
 h3          { font-size: 25px; margin: 0 0 0 0;}
 h4, h4 a    { color: #434343; font-size: 15px; margin: 0 0 15px 0;}
-p           { font-size: 14px;}
-.center     { width: 500px; margin: 0px auto; }
+p           { font-size: 14px; text-align: justify;}
+.center     { width: 600px; margin: 0px auto; }
 .avatar     { border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; }
 .title      { color: #6fa8dc; }
 .key        { color: #b4a7d6; }
