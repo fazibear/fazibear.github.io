@@ -354,7 +354,7 @@ body {
 pre, code {
     background-color: rgba(24,24,24,0.5);
     color:#fdce93;
-    font-family: monospace;
+    font-family: "Droid Sans Mono",monospace;
 }
 
 code {
