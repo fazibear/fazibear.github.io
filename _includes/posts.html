@@ -1,0 +1,14 @@
+<!-- Posts Section -->
+<section id="posts" class="container content-section text-center">
+  <h1>Blog Archives</h1>
+  {% for post in site.posts %}
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h4 class="text-left">
+        <span class="label label-default col-md-2"><i class="fa fa-calendar"></i> {{ post.date | date: "%d-%m-%Y" }}</span>
+        <a class="col-md-offset-1" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h4>
+    </div>
+  </div>
+  {% endfor %}
+</section>

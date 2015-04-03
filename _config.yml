@@ -1,0 +1,14 @@
+# Site settings
+title: Software Developer
+email: fazibear@gmail.com
+url: https://fazibear.github.io
+description: Michał Kalbarczyk | Software Developer | Personal Site
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary-dark: '#000000'
+  links: '#219ab3'
+
+# Build settings
+markdown: redcarpet
+permalink: /blog/:year/:month/:day/:title/

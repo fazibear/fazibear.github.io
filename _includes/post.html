@@ -1,0 +1,11 @@
+<!-- Posts Section -->
+<section id="post" class="container content-section text-center">
+  <h2>{{ page.title }}</h2>
+  <h4>{{ page.date | date_to_long_string }}{% if page.tags.size > 0 %} • {{ page.tags | join: ' • ' }}{% endif %}</h4>
+  <div class="row text-left">
+    <div class="col-md-10 col-md-offset-1">
+      {{ content }}
+      <div id="disqus_thread"></div>
+    </div>
+  </div>
+</section>
