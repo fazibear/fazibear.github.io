@@ -12,3 +12,6 @@ color:
 # Build settings
 markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title/
+
+gems:
+  - jekyll-sitemap
