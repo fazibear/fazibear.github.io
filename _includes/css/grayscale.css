@@ -136,6 +136,22 @@ a:focus {
     }
 }
 
+.navbar-header img {
+  padding: 0;
+  margin: 0 15px;
+  opacity: 0;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
+.top-nav-collapse .navbar-header img {
+  opacity: 1;
+  -webkit-transition: opacity .5s ease-in-out;
+  -moz-transition: opacity .5s ease-in-out;
+  transition: opacity .5s ease-in-out;
+}
+
 .intro {
     height: 100%;
     width: 100%;
