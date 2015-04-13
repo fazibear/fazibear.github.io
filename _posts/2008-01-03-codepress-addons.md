@@ -40,7 +40,7 @@ CodePress.run = function() {
       }
     }
   }
-} 
+}
 ```
 
 I also update a little syntax highlight for Ruby language:
@@ -68,7 +68,7 @@ Language.complete = [
   { input : '"', output : '"$0"' },
   { input : '(', output : '\($0\)' },
   { input : '[', output : '\[$0\]' },
-  { input : '{', output : '{$0}' }    
+  { input : '{', output : '{$0}' }
 ]
-Language.shortcuts = [] 
+Language.shortcuts = []
 ```
