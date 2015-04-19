@@ -1,16 +1,19 @@
+---
+sitemap: false
+---
 <!doctype html>
 <html>
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-    <meta http-equiv="refresh" content="1;url=http://fazibear.github.io"/>
+    <meta http-equiv="refresh" content="1;url={{ site.url }}"/>
     <script type="text/javascript">
       if(window.top){
-        window.top.location.href = "http://fazibear.github.io";
+        window.top.location.href = "{{ site.url }}";
       } else {
-        window.location.href = "http://fazibear.github.io";
+        window.location.href = "{{ site.url }}";
       }
     </script>
-    <title>cv.rb</title>
+    <title>{{ site.name }} | {{ site.title }}</title>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'/>
     <link href='style.css' rel='stylesheet' type='text/css'/>
   </head>
@@ -21,7 +24,7 @@
     <h4>@fazibear</h4>
     <h2>404</h2>
     <h3>
-      If you are not redirected automatically, follow the <a href='http://fazibear.github.io'>link</a>.
+      If you are not redirected automatically, follow the <a href='{{ site.url }}'>link</a>.
     </h3>
   </body>
 </html>
