@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ember-cli with coffee and emblem
+title: Ember-cli with Coffee and Emblem
 tags:
 - javascript
 - coffeescript
