@@ -1,9 +1,18 @@
 <!-- Posts Section -->
-<section id="post" class="container content-section text-center">
-  <h2>{{ page.title }}</h2>
-  <h5>{{ page.date | date_to_long_string }}{% if page.tags.size > 0 %} • {{ page.tags | join: ' • ' }}{% endif %}</h4>
+<section id="post" class="container content-section text-center" itemscope="" itemtype="http://schema.org/BlogPosting">
+  <h2 itemprop="name headline">{{ page.title }}</h2>
+  <h5>
+    <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <span itemprop="name">
+        <a href="https://plus.google.com/109104750112781473224" itemprop="url" rel="author">{{ site.author }}</a>
+      </span>
+    </span>
+    •
+    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_long_string }}</time>
+  </h5>
+  <h4>{% if page.tags.size > 0 %}{{ page.tags | join: ' • ' }}{% endif %}</h4>
   <div class="row text-left">
-    <div class="col-md-10 col-md-offset-1">
+    <div class="col-md-10 col-md-offset-1" itemprop="articleBody">
       {{ content }}
       <div id="disqus_thread"></div>
     </div>
