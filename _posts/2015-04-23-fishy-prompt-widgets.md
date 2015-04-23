@@ -6,11 +6,11 @@ tags:
  - widgets
  - prompt
 ---
-Fish is a nice shell, its nice, lite, fast, and have a lot of features. One of them is `universal variables`. This variables are shared across sessions. This is very usefull when I want to have a nice handy information in the prompt. We don't want to execute command every time thats prompt appears. Lets use them.
+Fish is a nice shell, its nice, lite, fast, and have a lot of features. One of them is `universal variables`. This variables are shared across sessions. This is very useful when I want to have a nice handy information in the prompt. We don't want to execute command every time thats prompt appears. Lets use them.
 
 This is what I'm talking about! ![fish widgets](/img/fish_widgets.png)
 
-Widgets are refreshed in backround, lets use cron. Write a little script that gather system information and set some variable that can be displayed in prompt.
+Widgets are refreshed in background, lets use `cron`. Write a little script that gather system information and set some variable that can be displayed in prompt.
 Create a `~/.config/fish/functions/prompt_info_update.fish`
 
 `_prompt_info_status_for` function takes 3 parameters:
@@ -62,7 +62,7 @@ Great. Lets set some widgets!!! I'm on OSX, lets use emoji as icons. We create 5
  - internet connection check
 
 This is so simple too. Gather information first, and glue our propry variable. `prompt_info` this is a good name ;)
-Use some conditional, we don't want brew icon when we up to date, alse display nothing when there are internet connection.
+Use some conditional, we don't want brew icon when we up to date, and display nothing when there are internet connection.
 Look, this is it:
 
 ```js
@@ -112,6 +112,6 @@ and add
 ```
 
 And voila. Nice handy prompt widgets with about `50 LOC`
-Another great stuff, quick and usefull.
+Another great stuff, quick and useful.
 
 Cheers.
