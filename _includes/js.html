@@ -1,4 +1,12 @@
- <!-- jQuery Version 1.11.0 -->
+<!-- WOW.js -->
+<script src="{{ "/js/wow.min.js" | prepend: site.baseurl }}"></script>
+<script>
+  new WOW({
+    mobile: false
+  }).init();
+</script>
+
+<!-- jQuery Version 1.11.0 -->
 <script src="{{ "/js/jquery.js" | prepend: site.baseurl }}"></script>
 
 <!-- Bootstrap Core JavaScript -->
@@ -21,10 +29,3 @@
   ga('send', 'pageview');
 </script>
 
-<!-- WOW.js -->
-<script src="{{ "/js/wow.min.js" | prepend: site.baseurl }}"></script>
-<script>
-  new WOW({
-    mobile: false
-  }).init();
-</script>
