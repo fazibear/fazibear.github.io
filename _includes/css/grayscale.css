@@ -401,3 +401,7 @@ h5 a,
 h5 a:visited {
   color: white;
 }
+
+#posts h4 {
+  line-height: 24px;
+}
