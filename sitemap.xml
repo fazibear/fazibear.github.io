@@ -1,0 +1,54 @@
+---
+exclude: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  {% for page in site.pages %}
+    {% unless page.exclude %}
+    <url>
+      <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
+      {% if page.lastmod %}
+      <lastmod>{{ page.lastmod | date_to_xmlschema }}</lastmod>
+      {% elsif page.date %}
+      <lastmod>{{ page.date | date_to_xmlschema }}</lastmod>
+      {% else %}
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if page.changefreq %}
+      <changefreq>{{ page.changefreq }}</changefreq>
+      {% else %}
+      <changefreq>{{ site.sitemap.changefreq }}</changefreq>
+      {% endif %}
+      {% if page.priority %}
+      <priority>{{ page.priority }}</priority>
+      {% else %}
+      <priority>{{ site.sitemap.priority }}</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
+  {% for post in site.posts %}
+    {% unless post.published == false %}
+    <url>
+      <loc>{{ site.url }}{{ post.url }}</loc>
+      {% if site.sitemap.refresh %}
+      <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
+      {% elsif post.lastmod %}
+      <lastmod>{{ post.lastmod | date_to_xmlschema }}</lastmod>
+      {% else %}
+      <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
+      {% endif %}
+      {% if post.changefreq %}
+      <changefreq>{{ post.changefreq }}</changefreq>
+      {% else %}
+      <changefreq>{{ site.sitemap.changefreq }}</changefreq>
+      {% endif %}
+      {% if post.priority %}
+      <priority>{{ post.priority }}</priority>
+      {% else %}
+      <priority>{{ site.sitemap.priority }}</priority>
+      {% endif %}
+    </url>
+    {% endunless %}
+  {% endfor %}
+</urlset>

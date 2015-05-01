@@ -14,5 +14,7 @@ color:
 markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title/
 
-gems:
-  - jekyll-sitemap
+sitemap:
+  refresh: true
+  priority: 1.0
+  changefreq: daily
