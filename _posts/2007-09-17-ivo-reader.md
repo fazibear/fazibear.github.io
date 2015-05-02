@@ -19,10 +19,10 @@ Script can be downloaded from [here](http://fazibear.googlepages.com/ivo.rb).
 
 Simple usage:
 
-```
-# ivo.rb "This is simple text"
-# echo "simple text" | ivo.rb
-# cat somefile.txt | ivo.rb
+```sh
+$ ivo.rb "This is simple text"
+$ echo "simple text" | ivo.rb
+$ cat somefile.txt | ivo.rb
 ```
 
 Configuration:

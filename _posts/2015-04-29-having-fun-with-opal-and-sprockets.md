@@ -13,9 +13,9 @@ Started playing with [sprockets](https://github.com/sstephenson/sprockets), an a
 Let's set this thing up!
 
 ```sh
-# mkdir opal-playground
-# cd opal-playground
-# bundle init
+$ mkdir opal-playground
+$ cd opal-playground
+$ bundle init
 ```
 
 Bundler initialized, lets add some gems, edit `Gemfile`:
@@ -32,7 +32,7 @@ gem 'sass'
 and install gems
 
 ```sh
-# bundle
+$ bundle
 ```
 
 We need to create four folders:
@@ -100,7 +100,7 @@ body h2
 We need an JQuery. Download it to `vendor`:
 
 ```sh
-# curl http://code.jquery.com/jquery-1.11.2.min.js -o vendor/jquery.min.js
+$ curl http://code.jquery.com/jquery-1.11.2.min.js -o vendor/jquery.min.js
 ```
 
 Finally we can create ruby (opal) file `app/app.js.rb`:
@@ -129,7 +129,7 @@ end
 We're done, is this working ?
 
 ```sh
-# rackup
+$ rackup
 ```
 
 And open [http://localhost:9292/index.html](http://localhost:9292/index.html)! Happy?
@@ -137,5 +137,5 @@ And open [http://localhost:9292/index.html](http://localhost:9292/index.html)! H
 You're lazy ? Check out [github repository](https://github.com/fazibear/opal-slim-sass-sprockets-example) or simply:
 
 ```
-git clone git@github.com:fazibear/opal-slim-sass-sprockets-example.git
+$ git clone git@github.com:fazibear/opal-slim-sass-sprockets-example.git
 ```

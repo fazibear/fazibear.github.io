@@ -102,7 +102,7 @@ end
 At the end, we need add something that updates our widgets.
 
 ```sh
-# crontab -e
+$ crontab -e
 ```
 
 and add
