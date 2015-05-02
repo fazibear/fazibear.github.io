@@ -42,12 +42,12 @@ function _prompt_info_status_for
 
   if set -q $prompt_info_variable
     if test (math (_prompt_info_status_current_time) - $$prompt_info_variable[1][2] ) -ge $prompt_info_interval
-      set -U $prompt_info_variable[1][1] (_eval $prompt_info_cmd)
       set -U $prompt_info_variable[1][2] (_prompt_info_status_current_time)
+      set -U $prompt_info_variable[1][1] (_eval $prompt_info_cmd)
     end
   else
-    set -U $prompt_info_variable[1][1] (_eval $prompt_info_cmd)
     set -U $prompt_info_variable[1][2] (_prompt_info_status_current_time)
+    set -U $prompt_info_variable[1][1] (_eval $prompt_info_cmd)
   end
   echo $$prompt_info_variable[1][1]
 end
@@ -76,17 +76,17 @@ function prompt_info_update --description "Update system information in prompt"
   set -U prompt_info ""
 
   if test -n $prompt_info_battery[1]
-    set prompt_info "$prompt_info🔋 $prompt_info_battery[1] "
+    set -U prompt_info "$prompt_info🔋 $prompt_info_battery[1] "
   end
 
-  set prompt_info "$prompt_info📚 $prompt_info_memory[1] 💾 $prompt_info_disk[1] "
+  set -U prompt_info "$prompt_info📚 $prompt_info_memory[1] 💾 $prompt_info_disk[1] "
 
   if test $prompt_info_brew[1] -gt 0
-    set prompt_info "$prompt_info🍺 $prompt_info_brew[1] "
+    set -U prompt_info "$prompt_info🍺 $prompt_info_brew[1] "
   end
 
   if not test -n $prompt_info_ping[1]
-    set prompt_info "$prompt_info🚫  "
+    set -U prompt_info "$prompt_info🚫  "
   end
 end
 ```
