@@ -1,17 +1,19 @@
 <!-- Posts Section -->
-<section id="post" class="container content-section text-center" itemscope="" itemtype="http://schema.org/BlogPosting">
-  <h2 itemprop="name headline">{{ page.title }}</h2>
-  <h5>
-    <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        <a href="{{ site.url }}" itemprop="url" rel="author">{{ site.author }}</a>
-      </span>
-    </span>
-    •
-    <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_long_string }}</time>
-  </h5>
-  <article>
-    <h4 itemprop="keywords">{% if page.tags.size > 0 %}{{ page.tags | join: ' • ' }}{% endif %}</h4>
+<section id="post" class="container content-section text-center">
+  <article itemscope="" itemtype="http://schema.org/BlogPosting">
+    <header>
+      <h2 itemprop="name headline">{{ page.title }}</h2>
+      <h5>
+        <span itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+          <span itemprop="name">
+            <a href="{{ site.url }}" itemprop="url" rel="author">{{ site.author }}</a>
+          </span>
+        </span>
+        •
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_long_string }}</time>
+      </h5>
+      <h4 itemprop="keywords">{% if page.tags.size > 0 %}{{ page.tags | join: ' • ' }}{% endif %}</h4>
+    </header>
     <div class="row text-left">
       <div class="col-md-10 col-md-offset-1" itemprop="articleBody">
         {{ content }}
