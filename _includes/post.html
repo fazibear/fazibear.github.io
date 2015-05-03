@@ -10,11 +10,13 @@
     •
     <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date_to_long_string }}</time>
   </h5>
-  <h4 itemprop="keywords">{% if page.tags.size > 0 %}{{ page.tags | join: ' • ' }}{% endif %}</h4>
-  <div class="row text-left">
-    <div class="col-md-10 col-md-offset-1" itemprop="articleBody">
-      {{ content }}
-      <div id="disqus_thread"></div>
+  <article>
+    <h4 itemprop="keywords">{% if page.tags.size > 0 %}{{ page.tags | join: ' • ' }}{% endif %}</h4>
+    <div class="row text-left">
+      <div class="col-md-10 col-md-offset-1" itemprop="articleBody">
+        {{ content }}
+        <div id="disqus_thread"></div>
+      </div>
     </div>
-  </div>
+  </article>
 </section>
