@@ -9,7 +9,8 @@ tags:
 ---
 
 Let's try [Opal](http://opalrb.org). I don't want to setup a Rails application. Just static html with javascript written in Opal, stylesheets in SASS, and HTML in Slim. Also we want to use JQuery like methods to select DOM elements.
-Started playing with [sprockets](https://github.com/sstephenson/sprockets), an assets pipeline from rails.
+We use [sprockets](https://github.com/sstephenson/sprockets), an assets pipeline from rails, and [rails-assets](https://rails-assets.org) to manage javascript libraries.
+
 Let's set this thing up!
 
 ```sh
@@ -22,6 +23,10 @@ Bundler initialized, lets add some gems, edit `Gemfile`:
 
 ```ruby
 source "https://rubygems.org"
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-jquery'
+end
 
 gem 'opal'
 gem 'opal-jquery'
@@ -40,7 +45,6 @@ We need to create four folders:
  - app - for opal files (compiled to javascript)
  - views - for slim templates
  - styles - for sass stylesheets
- - vendor - for other libs
 
 Sprockets uses rack to serve compiled assets, lets make a `config.ru` for that:
 
@@ -60,10 +64,14 @@ sprockets = Sprockets::Environment.new.tap do |s|
   s.append_path 'app'
   s.append_path 'views'
   s.append_path 'styles'
-  s.append_path 'vendor'
 
-  # add path to opal gems
+  # add paths from opal
   Opal.paths.each do |p|
+    s.append_path p
+  end
+
+  # add paths from rails-assets
+  RailsAssets.load_paths.each do |p|
     s.append_path p
   end
 end
@@ -97,17 +105,11 @@ body h2
   color: red
 ```
 
-We need an JQuery. Download it to `vendor`:
-
-```sh
-$ curl http://code.jquery.com/jquery-1.11.2.min.js -o vendor/jquery.min.js
-```
-
 Finally we can create ruby (opal) file `app/app.js.rb`:
 
 ```ruby
 # use sprockets directive to include jquery
-#= require 'jquery.min'
+#= require 'jquery'
 
 require 'opal'
 require 'opal-jquery'
