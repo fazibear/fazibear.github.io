@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Inesita - who is she ?
-tags: ruby opal frontend
+tags: ruby opal frontend inesita
 ---
 
 <center>![Inesita](http://inesita-rb.github.io/images/inesita.gif)</center>
