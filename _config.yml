@@ -11,10 +11,13 @@ color:
   links: '#219ab3'
 
 # Build settings
-markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title/
 
 sitemap:
   refresh: false
   priority: 1.0
   changefreq: daily
+
+markdown: kramdown
+kramdown:
+  input: GFM
