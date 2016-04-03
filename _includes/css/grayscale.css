@@ -407,6 +407,11 @@ h5 a:visited {
   color: white;
 }
 
+#projects h3 {
+  margin-top: 30px;
+  margin-bottom: 10px
+}
+
 #posts h4 {
   line-height: 25px;
 }
