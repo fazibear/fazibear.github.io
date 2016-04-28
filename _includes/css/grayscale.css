@@ -35,11 +35,6 @@ h6 {
     letter-spacing: 1px;
 }
 
-h4 {
-  display: inline;
-  margin-right: 10px;
-}
-
 p {
     margin: 0 0 15px;
     font-size: 16px;
@@ -414,4 +409,10 @@ h5 a:visited {
 
 #posts h4 {
   line-height: 25px;
+  margin: 0
+}
+
+.index h4 {
+  display: inline;
+  margin-right: 10px;
 }
