@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Deploy Elixir application with Elastic Beanstalk
-tags: elixir exrm edib docker aws beanstalk 
+tags: elixir exrm edib docker aws beanstalk
 ---
 
 Lately I was playing with AWS. I'm just wondering how can I easly deploy Elixir application with Elastic Beanstalk.
@@ -106,15 +106,15 @@ I used `.dockerignore` file:
 
 ```
 .git/                                                                                                                 _build/                                                                                                               dist/
-cover/                                                                                                                
-deps/                                                                                                               
-doc/                                                                                                                  
-tarballs/                                                                                                             
-rel/                                                                                                                  
-erl_crash.dump                                                                                                        
-*.ez                                                                                                                  
-.edip.log                                                                                                             
-                                                                                                                      
+cover/
+deps/
+doc/
+tarballs/
+rel/
+erl_crash.dump
+*.ez
+.edip.log
+
 .*
 ```
 
@@ -122,21 +122,21 @@ OK, but what about Beanstalk ? Beanstalk use a `.ebignore` file witch can look e
 
 ```
 .git/                                                                                                                 _build/                                                                                                               dist/
-cover/                                                                                                                
-deps/                                                                                                               
-doc/                                                                                                                  
-tarballs/                                                                                                             
-rel/                                                                                                                  
-erl_crash.dump                                                                                                        
-*.ez                                                                                                                  
-.edip.log                                                                                                             
-                                                                                                                      
+cover/
+deps/
+doc/
+tarballs/
+rel/
+erl_crash.dump
+*.ez
+.edip.log
+
 .*
 ```
 
 So right now we send to Beanstalk only files that we need to build our docker image. BTW - Beanstalk don't ignore all files in deps folder. I don't know why, and really don't know why few files was send. I check it with `eb deploy --staged -v`. Nevermind!
 
-Now everything works just fine, but this is very stupid thing. I don't need to upload source code of compiled language to server. I don't want to. 
+Now everything works just fine, but this is very stupid thing. I don't need to upload source code of compiled language to server. I don't want to.
 
 After a while [edib](https://github.com/asaaki/mix-edip) comes to rescue! This tool use `exrm` and `docker` to generate a proper release. This is what I was thinking of. Docker for building docker.
 
@@ -149,7 +149,7 @@ and let magic begins...
 
 ```sg
 $ mix edib
-``` 
+```
 
 Cool. Release generated, docker created! Now I can run it:
 
