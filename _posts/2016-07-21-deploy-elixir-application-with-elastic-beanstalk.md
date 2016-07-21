@@ -105,7 +105,9 @@ Woow! Works. So I want to cleanup things a little. We don't need all this files 
 I used `.dockerignore` file:
 
 ```
-.git/                                                                                                                 _build/                                                                                                               dist/
+.git/
+_build/
+dist/
 cover/
 deps/
 doc/
@@ -121,7 +123,9 @@ erl_crash.dump
 OK, but what about Beanstalk ? Beanstalk use a `.ebignore` file witch can look exactly the same:
 
 ```
-.git/                                                                                                                 _build/                                                                                                               dist/
+.git/
+_build/
+dist/
 cover/
 deps/
 doc/
