@@ -4,7 +4,7 @@ title: Inesita - who is she ?
 tags: ruby opal frontend inesita
 ---
 
-<center><img src="http://inesita-rb.github.io/images/inesita.gif"></img></center>
+<center><img src="http://inesita-rb.github.io/images/inesita.gif"/></center>
 
 Who am I ? I am a simple, light, Ruby front-end framework. Yes, Ruby, it's all about Ruby, and its ecosystem.
 Do you know me ? You really should check her [site](http://inesita-rb.github.io/).
