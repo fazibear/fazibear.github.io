@@ -389,6 +389,7 @@ pre {
     border-radius: 25px;
     overflow: auto;
     font-size: 13px;
+    white-space: nowrap;
 }
 
 pre code {
