@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Deploy Elixir application with Elastic Beanstalk
+title: Deploy Elixir application to AWS Elastic Beanstalk
 tags: elixir exrm edib docker aws beanstalk
 ---
 
-Lately I was playing with AWS. I'm just wondering how can I easly deploy Elixir application with Elastic Beanstalk.
+Lately I was playing with AWS. I'm just wondering how can I easily deploy Elixir application with Elastic Beanstalk.
 Quickly I found [exrm](https://github.com/bitwalker/exrm). It's a great tool for generating elixir/erlang project releases. So I added to my deps in `mix.exs` something like this:
 
 ```elixir
@@ -47,7 +47,7 @@ EXPOSE $PORT
 CMD trap exit TERM; /$APP_NAME/bin/$APP_NAME foreground & wait
 ```
 
-Let's try build docker localy:
+Let's try build docker locally:
 
 ```sg
 $ docker build -t myapp .
