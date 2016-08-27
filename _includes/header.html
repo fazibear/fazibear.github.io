@@ -17,50 +17,52 @@
         <hr class="panel-cover__divider">
 
         <div class="navigation-wrapper">
+          <div>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="/#about" title="about" class="blog-button">About</a></li>
+              </ul>
+            </nav>
 
-          <nav class="cover-navigation cover-navigation--primary">
-            <ul class="navigation">
-              <li class="navigation__item"><a href="/#about" title="about" class="blog-button">About</a></li>
-            </ul>
-          </nav>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="/blog" title="blog" class="blog-button">Blog</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            <nav class="cover-navigation navigation--social">
+              <ul class="navigation">
+                {% for net in site.data.cv.social %}
+                  <li class="navigation__item">
+                    <a href="{{ net.url }}" title="@{{ net.user }} on {{ net.label }}" target="_blank">
+                      <i class="icon icon-{{net.icon}}"></i>
+                      <span class="label">{{ net.label }}</span>
+                    </a>
+                  </li>
+                {% endfor %}
 
-          <nav class="cover-navigation cover-navigation--primary">
-            <ul class="navigation">
-              <li class="navigation__item"><a href="/blog" title="blog" class="blog-button">Blog</a></li>
-            </ul>
-          </nav>
-
-          <nav class="cover-navigation navigation--social">
-            <ul class="navigation">
-              {% for net in site.data.cv.social %}
+              {% if site.data.cv.contact.email %}
+                <!-- Email -->
                 <li class="navigation__item">
-                  <a href="{{ net.url }}" title="@{{ net.user }} on {{ net.label }}" target="_blank">
-                    <i class="icon icon-{{net.icon}}"></i>
-                    <span class="label">{{ net.label }}</span>
+                  <a href="mailto:{{ site.data.cv.contact.email }}" title="Email {{ site.data.cv.contact.email }}" target="_blank">
+                    <i class="icon icon-mail"></i>
+                    <span class="label">Email</span>
                   </a>
                 </li>
-              {% endfor %}
+              {% endif %}
 
-            {% if site.data.cv.contact.email %}
-              <!-- Email -->
+              <!-- RSS -->
               <li class="navigation__item">
-                <a href="mailto:{{ site.data.cv.contact.email }}" title="Email {{ site.data.cv.contact.email }}" target="_blank">
-                  <i class="icon icon-mail"></i>
-                  <span class="label">Email</span>
+                <a href="/feed.xml" title="Subscribe" target="_blank">
+                  <i class="icon icon-rss"></i>
+                  <span class="label">RSS</span>
                 </a>
               </li>
-            {% endif %}
 
-            <!-- RSS -->
-            <li class="navigation__item">
-              <a href="/feed.xml" title="Subscribe" target="_blank">
-                <i class="icon icon-rss"></i>
-                <span class="label">RSS</span>
-              </a>
-            </li>
-
-            </ul>
-          </nav>
+              </ul>
+            </nav>
+          </div>
 
         </div>
 
