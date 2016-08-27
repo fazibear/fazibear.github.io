@@ -1043,7 +1043,8 @@ pre {
 .date,
 .time,
 .author,
-.tags {
+.tags,
+.readtime {
   font-size: .8em;
   color: #c7c7c7; }
   .date a,
