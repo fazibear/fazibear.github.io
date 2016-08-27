@@ -22,7 +22,11 @@ var toggle = function(selector, className){
   }
 }
 
-document.querySelectorAll('a.blog-button').forEach(function(button, i){
+var forEach = function(selector, fun){
+  Array.prototype.forEach.call(document.querySelectorAll(selector), fun);
+}
+
+forEach('a.blog-button', function(button){
   button.addEventListener("click", function(e) {
     if(panelCover().classList.contains('panel-cover--collapsed')){
       return;
@@ -39,7 +43,7 @@ if (window.location.hash && window.location.hash == '#about') {
   panelCover().classList.add('panel-cover--collapsed');
 }
 
-document.querySelectorAll('.btn-mobile-menu').forEach(function(button, i){
+forEach('.btn-mobile-menu', function(button){
   button.addEventListener("click", function(e) {
     toggle('.navigation-wrapper', 'visible');
     toggle('.navigation-wrapper', 'animated');
@@ -51,7 +55,7 @@ document.querySelectorAll('.btn-mobile-menu').forEach(function(button, i){
   });
 });
 
-document.querySelectorAll('.navigation-wrapper .blog-button').forEach(function(button, i){
+forEach('.navigation-wrapper .blog-button', function(button, i){
   button.addEventListener("click", function(e) {
     toggle('.navigation-wrapper', 'visible');
     toggle('.btn-mobile-menu__icon', 'icon-list');
