@@ -1,106 +1,12 @@
-<!-- Skills Section -->
-<section id="skills" class="container content-section text-center">
-  <h2>Skills</h2>
-  <div class="row">
-    <div class="col-md-4 col-md-offset-2 wow bounceIn">
-      <h4>Web</h4>
-      <p>
-        <span class="label label-success">HTML</span>
-        <span class="label label-success">CSS</span>
-        <span class="label label-success">Bootstrap</span>
-        <span class="label label-success">JSON</span>
-        <span class="label label-success">JSON-P</span>
-        <span class="label label-success">XML</span>
-        <span class="label label-success">XHTML</span>
-        <span class="label label-success">HTML5</span>
-        <span class="label label-success">XSLT</span>
-        <span class="label label-success">REST</span>
-        <span class="label label-success">AJAX</span>
-        <span class="label label-success">JavaScript</span>
-        <span class="label label-success">CoffeeScript</span>
-        <span class="label label-success">JQuery</span>
-        <span class="label label-success">React</span>
-        <span class="label label-success">Ember.js</span>
-        <span class="label label-success">Angular</span>
-        <span class="label label-success">Opal</span>
-        <span class="label label-success">OAuth</span>
-        <span class="label label-success">WebSocket</span>
-        <span class="label label-success">Meteor</span>
-        <span class="label label-success">Volt</span>
-      </p>
-    </div>
-    <div class="col-md-4 wow bounceIn">
-      <h4>Programming</h4>
-      <p>
-        <span class="label label-danger">Ruby</span>
-        <span class="label label-danger">Rails</span>
-        <span class="label label-danger">RSpec</span>
-        <span class="label label-danger">Capybara</span>
-        <span class="label label-danger">Resque</span>
-        <span class="label label-danger">Sinatra</span>
-        <span class="label label-danger">Spree</span>
-        <span class="label label-danger">NodeJS</span>
-        <span class="label label-danger">XMLRPC</span>
-        <span class="label label-danger">AMQP</span>
-        <span class="label label-danger">XMPP</span>
-        <span class="label label-danger">Elixir</span>
-        <span class="label label-danger">Phoenix</span>
-        <span class="label label-danger">Crystal</span>
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4 col-md-offset-2 wow bounceIn">
-      <h4>Storage</h4>
-      <p>
-        <span class="label label-primary">MySQL</span>
-        <span class="label label-primary">PostgreSQL</span>
-        <span class="label label-primary">Redis</span>
-        <span class="label label-primary">MongoDB</span>
-        <span class="label label-primary">SOLR</span>
-        <span class="label label-primary">Memcache</span>
-        <span class="label label-primary">S3</span>
-        <span class="label label-primary">Sphinx</span>
-      </p>
-    </div>
-    <div class="col-md-4 wow bounceIn">
-      <h4>Other</h4>
-      <p>
-        <span class="label label-warning">GIT</span>
-        <span class="label label-warning">SVN</span>
-        <span class="label label-warning">CVS</span>
-        <span class="label label-warning">CSS</span>
-        <span class="label label-warning">Linux</span>
-        <span class="label label-warning">OS X</span>
-        <span class="label label-warning">Varnish</span>
-        <span class="label label-warning">Haproxy</span>
-        <span class="label label-warning">Heroku</span>
-        <span class="label label-warning">Docker</span>
-      </p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4 col-md-offset-4 wow bounceIn">
-      <h4>Hobby</h4>
-      <p>
-        <span class="label label-default">RubyMotion</span>
-        <span class="label label-default">MRuby</span>
-        <span class="label label-default">Crystal</span>
-        <span class="label label-default">Go</span>
-        <span class="label label-default">Elixir</span>
-        <span class="label label-default">Music</span>
-        <span class="label label-default">Guitar</span>
-        <span class="label label-default">VST</span>
-        <span class="label label-default">MIX</span>
-        <span class="label label-default">home recording</span>
-        <span class="label label-default">DAW</span>
-        <span class="label label-default">mastering</span>
-        <span class="label label-default">MIDI</span>
-        <span class="label label-default">VST</span>
-        <span class="label label-default">DYI</span>
-        <span class="label label-default">electronics</span>
-      </p>
-    </div>
-  </div>
-</section>
-
+<li>
+  <h3>Skills</h3>
+    {% for set in site.data.cv.skills.sets %}
+      <h4>{{ set.name }}</h4>
+      <div class="skills">
+        {% for skill in set.skills %}
+        <span>{{ skill }}</span>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  <hr class="post-list__divider">
+</li>

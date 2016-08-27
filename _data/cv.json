@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.4.0"
+  },
+
+  "name": "Michał Kalbarczyk",
+
+  "contact": {
+    "website": "https://fazibear.github.io",
+    "email": "fazibear@gmail.com"
+  },
+
+  "info": {
+    "label": "Senior Software Engineer",
+    "characterClass": "Programmer",
+    "brief": ""
+  },
+
+  "projects": [
+    {
+      "title": "Inesita",
+      "category": "FOSS",
+      "role": "creator",
+      "url": "http://inesita-rb.github.io/",
+      "start": "2015-06",
+      "repo": "https://github.com/inesita-rb/inesita",
+      "description": "Frontend web application framework in Ruby using Opal.",
+      "summary": "Frontend for write web applications in Ruby.",
+      "keywords": ["javascript","opal","ruby","virtual-dom"],
+      "media": [
+        {
+          "category": "download",
+          "url": "https://rubygems.org/gems/inesita"
+        }
+      ]
+    },
+    {
+      "title": "Colorize",
+      "category": "FOSS",
+      "role": "creator",
+      "url": "https://rubygems.org/gems/colorize",
+      "repo": "http://github.com/fazibear/colorize",
+      "description": "Ruby string class extension. It add some methods to set color, background color and text effect on console easier using ANSI escape sequences.",
+      "start": "2007-04",
+      "summary": "Colorized string on console using ruby.",
+      "keywords": ["ruby","ansi"]
+    },
+    {
+      "title": "Blog",
+      "category": "personal",
+      "role": "creator",
+      "url": "http://fazibear.github.io/blog",
+      "description": "My programming blog. Powered by Jekyll.",
+      "summary": "All about programming",
+      "keywords": ["jekyll","ruby","html5","javascript"]
+    }
+  ],
+
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "fazibear",
+      "url": "https://github.com/fazibear",
+      "icon": "social-github"
+    },
+    {
+      "label": "Twitter",
+      "network": "Twitter",
+      "user": "fazibear",
+      "url": "https://twitter.com/fazibear",
+      "icon": "social-twitter"
+    },
+    {
+      "label": "Medium",
+      "network": "Medium",
+      "user": "fazibear",
+      "url": "https://medium.com/@fazibear",
+      "icon": "social-medium"
+    },
+    {
+      "label": "SoundCloud",
+      "network": "SoundCloud",
+      "user": "fazibear",
+      "url": "https://soundcloud.com/fazibear",
+      "icon": "music"
+    }
+  ],
+
+  "employment": {
+    "summary": "10+ years industry IT and software development experience.",
+    "history": [
+      {
+        "employer": "El Passion",
+        "url": "http://www.elpassion.com/",
+        "position": "Senior  Developer",
+        "summary": "Development of various sites in Ruby, Elixir, JavaScript.",
+        "start": "2014-12",
+        "keywords": ["ruby","rails","sinatra","grape","javascript","solr","elasticsearch","resque","rspec","redis","postgres","memchached","json","git","docker","elixir","phoenix","graphql","websocket","aws","s3","rds","agile","scrum","jira"]
+      },
+      {
+        "employer": "Arena.pl",
+        "url": "https://arena.pl/",
+        "position": "Senior Ruby Developer",
+        "summary": "Development of big e-commerce site for arena.pl.",
+        "start": "2014-03",
+        "end": "2014-11",
+        "keywords": ["ruby","rails","javascript","jquery","solr","resque","rspec","redis","mysql","spree","memchached","json","git","varnish","haproxy","docker","jira"]
+      },
+      {
+        "employer": "Cubiware Sp. z o. o.",
+        "url": "http://www.cubiware.com/",
+        "position": "Senior Ruby Developer",
+        "summary": "Backend application development for cable television STB.",
+        "start": "2013-03",
+        "end": "2014-03",
+        "keywords": ["ruby","rails","sinatra","resque","rspec","redis","mysql","memcached","json", "xml", "xmlrpc", "git", "varnish", "haproxy","scrum","agile"]
+      },
+      {
+        "employer": "GG Network S.A.",
+        "url": "http://www.gg.pl/",
+        "position": "Ruby / Javascript Developer",
+        "summary": "Development and maintanance of blip.pl - polish twitter like service.",
+        "start": "2008-05",
+        "end": "2013-02",
+        "keywords": ["ruby","rails","rspec","amqp","redis","sphinx","mysql","memchached","json","svn","varnish","haproxy","scrum","agile"]
+      },
+      {
+        "employer": "Activeweb Medical Solutions",
+        "url": "http://www.activeweb.pl/",
+        "position": "Ruby / Javascript Developer",
+        "summary": "Development and maintanance of variurs web pages.",
+        "start": "2007-10",
+        "end": "2008-07",
+        "keywords": ["ruby","rails","rspec","mysql","ajax","rest","soap","openid","wap","svn","flash"]
+      },
+      {
+        "employer": "EO Networks",
+        "url": "http://www.eo.pl",
+        "position": "Lead Web Developer / Java EE Developer",
+        "summary": "Leader of Web Development Team, Java EE Backend programmer.",
+        "start": "2004-11",
+        "end": "2007-07",
+        "keywords": ["j2ee","hibernate","spring","velocity","postgres","javascript","html","css","xml","xslt","selenium","svn"]
+      }
+    ]
+  },
+
+  "education": {
+    "history": [
+      {
+        "institution": "Warszawska Wyższa Szkoła Informatyki",
+        "title": "Engineer",
+        "url": "http://www.wwsi.edu.pl/",
+        "start": "2003-09",
+        "end": "2009-05",
+        "summary": "Inżynieria Oprogramowania",
+        "curriculum": ["CCNA Course 1-2", "Windows 2003 Server Administration Course"]
+      },
+      {
+        "institution": "Studium Ekonomii I Biznesu",
+        "title": "Technician",
+        "url": "http://cek.home.pl/",
+        "start": "2002-09",
+        "end": "2003-06",
+        "summary": "Programowanie i Bazy Danych"
+      },
+      {
+        "institution": "Technikum Elektroniczno Mechaniczne",
+        "title": "Technician",
+        "url": "http://zseil.edu.pl/",
+        "start": "1997-09",
+        "end": "2002-06",
+        "summary": "Elektronika Ogólna"
+      }
+    ]
+  },
+
+  "skills": {
+    "sets": [
+      {
+        "name": "Programming",
+        "level": 8,
+        "skills": [
+          "ruby", "rails", "rspec", "capybara", "resque", "sinatra", "spree","node.js", "xmlrpc", "amqp", "xmpp", "elixir", "phoenix", "crystal", "rubymotion"
+        ]
+      },
+      {
+        "name": "Web",
+        "level": 7,
+        "skills": [
+          "html", "css", "bootstrap", "json", "jsonp", "xml", "xslt", "rest", "ajax", "javascript", "coffeescript", "jquery", "react", "ember.js", "angular", "opal", "oauth", "websocket", "volt", "meteor"
+        ]
+      },
+      {
+        "name": "Storage",
+        "level": 7,
+        "skills": [
+          "mysql", "postgres", "redis", "orm", "memcached", "sphinx", "solr", "elasticsearch"
+        ]
+      },
+      {
+        "name": "Cloud",
+        "level": 7,
+        "skills": [
+          "aws", "ec2", "rds", "s3", "heroku", "github", "docker"
+        ]
+      },
+      {
+        "name": "Project",
+        "level": 6,
+        "skills": [
+          "agile", "jira", "scrum"
+        ]
+      }
+    ]
+  },
+  "languages": [
+    {
+      "language": "Polish",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "communicative",
+      "years": 10
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "summary": "Playing, composing and recording all kinds of music.",
+      "keywords": [ "guitar", "keyboard", "composing", "midi", "daw", "vst", "recording", "mastering" ]
+    },
+    {
+      "name": "Internet Of Things",
+      "summary": "Play with microcontrollers, LEDs, sensors ...",
+      "keywords": [ "iot", "adruino", "esp2866", "soldering", "led", "microcontrollers", "sensors" ]
+    },
+    {
+      "name": "Retro Computers",
+      "summary": "Programming and playing with old 8 bit computers.",
+      "keywords": [ "c64", "sid", "asm", "commodore", "8bit" ]
+    }
+  ]
+
+}
