@@ -14,4 +14,9 @@ exclude:
   - Gemfile.lock
 
 gems:
-  - jekyll-redirect-from
+#  - jekyll-crosspost-to-medium
+
+jekyll-crosspost_to_medium:
+  enabled: true
+  status: draft
+  text: '<hr/><p><i>Originally published at <a href="{{ url }}" rel="canonical">here</a>.'

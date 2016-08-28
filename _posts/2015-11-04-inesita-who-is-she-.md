@@ -2,6 +2,8 @@
 layout: post
 title: Inesita - who is she ?
 tags: ruby opal frontend inesita
+crosspost_to_medium: true
+medium_link: https://medium.com/@fazibear/d6cb800afe7a
 ---
 
 <center><img src="http://inesita-rb.github.io/images/inesita.gif"/></center>

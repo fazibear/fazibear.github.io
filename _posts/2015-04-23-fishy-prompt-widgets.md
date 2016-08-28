@@ -5,6 +5,8 @@ tags:
  - fish
  - widgets
  - prompt
+crosspost_to_medium: true
+medium_link: https://medium.com/@fazibear/59fd534869f0
 ---
 Fish is a nice shell, its nice, lite, fast, and have a lot of features. One of them is `universal variables`. This variables are shared across sessions. This is very useful when I want to have a nice handy information in the prompt. We don't want to execute command every time thats prompt appears. Lets use them.
 

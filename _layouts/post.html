@@ -10,6 +10,11 @@ layout: default
       &#8226;
       <span class="readtime">{% include readtime.html %}</span>
     </div>
+    {% if page.medium_link %}
+      <h3>
+        You can read this post on <a href="{{ page.medium_link }}">Medium</a>.
+      </h3>
+    {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
 

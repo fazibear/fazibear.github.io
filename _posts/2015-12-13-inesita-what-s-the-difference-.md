@@ -2,6 +2,8 @@
 layout: post
 title: Inesita - what's the difference ?
 tags: opal ruby frontend inesita
+crosspost_to_medium: true
+medium_link: https://medium.com/@fazibear/9e4f3dce2be0
 ---
 
 This is another quick post about [Inesita](http://inesita-rb.github.io/). Lot of people asked me about differences to other framework [Clearwater](https://github.com/clearwater-rb/clearwater).
