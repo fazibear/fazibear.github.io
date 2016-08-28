@@ -2,6 +2,7 @@
 layout: post
 title: Deploy Elixir application to AWS Elastic Beanstalk
 tags: elixir exrm edib docker aws beanstalk
+redirect_to: https://medium.com/@fazibear/deploy-elixir-application-74e1bce100c6#.opexm8rn0
 ---
 
 Lately I was playing with AWS. I'm just wondering how can I easily deploy Elixir application with Elastic Beanstalk.

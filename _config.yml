@@ -9,4 +9,9 @@ kramdown:
   input: GFM
   hard_wrap: false
 
-exclude: ['Gemfile', 'Gemfile.lock']
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+gems:
+  - jekyll-redirect-from
