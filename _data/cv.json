@@ -25,8 +25,8 @@
       "url": "http://inesita-rb.github.io/",
       "start": "2015-06",
       "repo": "https://github.com/inesita-rb/inesita",
-      "description": "Frontend web application framework in Ruby using Opal.",
       "summary": "Frontend for write web applications in Ruby.",
+      "description": "Frontend web application framework in Ruby using Opal.",
       "keywords": ["javascript","opal","ruby","virtual-dom"],
       "media": [
         {
@@ -41,10 +41,52 @@
       "role": "creator",
       "url": "https://rubygems.org/gems/colorize",
       "repo": "http://github.com/fazibear/colorize",
-      "description": "Ruby string class extension. It add some methods to set color, background color and text effect on console easier using ANSI escape sequences.",
       "start": "2007-04",
       "summary": "Colorized string on console using ruby.",
+      "description": "Ruby string class extension. It add some methods to set color, background color and text effect on console easier.",
       "keywords": ["ruby","ansi"]
+    },
+    {
+      "title": "AsciifyMe",
+      "category": "FOSS",
+      "role": "creator",
+      "url": "https://inesita-asciify-me.netlify.com/",
+      "repo": "https://github.com/inesita-rb/asciify-me",
+      "start": "2015-12",
+      "summary": "Watch yourself in ASCII mirror.",
+      "description": "Watch yourself in ASCII mirror.",
+      "keywords": ["ruby","opal","javascript"]
+    },
+    {
+      "title": "Inesid",
+      "category": "FOSS",
+      "role": "creator",
+      "url": "https://inesid.surge.sh",
+      "repo": "https://github.com/fazibear/inesid",
+      "start": "2016-4",
+      "summary": "Retro Web Commodore 64 SID Player.",
+      "description": "Retro Web Commodore 64 SID Player.",
+      "keywords": ["ruby","opal","javascript"]
+    },
+    {
+      "title": "Ruby Gems",
+      "category": "FOSS",
+      "role": "creator",
+      "url": "https://rubygems.org/profiles/fazibear",
+      "repo": "https://github.com/fazibear",
+      "summary": "My Gems for Ruby and Opal",
+      "description": "My Gems for Ruby and Opal",
+      "keywords": ["ruby","gem"]
+    },
+    {
+      "title": "Hex Packages",
+      "category": "FOSS",
+      "role": "creator",
+      "url": "https://hex.pm/",
+      "repo": "https://github.com/fazibear",
+      "summary": "My hex.pm packages: airbtakex, export, ex_ical",
+      "description": "My hex.pm packages: airbtakex, export, ex_ical",
+      "keywords": ["elixir","hex"]
     }
   ],
 
@@ -181,7 +223,8 @@
         "name": "Web",
         "level": 7,
         "skills": [
-          "html", "css", "graphql", "react", "redux", "reflux", "ember.js", "angular", "opal", "bootstrap", "json", "jsonp", "xml", "xslt", "rest", "ajax", "javascript", "coffeescript", "jquery", "oauth", "websocket", "volt", "meteor"
+          "javascript", "graphql", "react", "redux", "reflux", "ember.js", "angular", "opal", "json",
+          "xml", "xslt", "rest", "ajax", "coffeescript", "jquery", "oauth", "websocket", "volt", "meteor", "html", "css"
         ]
       },
       {
