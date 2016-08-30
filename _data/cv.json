@@ -74,8 +74,8 @@
       "role": "creator",
       "url": "https://rubygems.org/profiles/fazibear",
       "repo": "https://github.com/fazibear",
-      "summary": "My Gems for Ruby and Opal",
-      "description": "My Gems for Ruby and Opal",
+      "summary": "My Gems for Ruby and Opal.",
+      "description": "My Gems for Ruby and Opal.",
       "keywords": ["ruby","gem"]
     },
     {
@@ -84,8 +84,8 @@
       "role": "creator",
       "url": "https://hex.pm/",
       "repo": "https://github.com/fazibear",
-      "summary": "My hex.pm packages: airbtakex, export, ex_ical",
-      "description": "My hex.pm packages: airbtakex, export, ex_ical",
+      "summary": "My hex.pm packages: airbtakex, export, ex_ical.",
+      "description": "My hex.pm packages: airbtakex, export, ex_ical.",
       "keywords": ["elixir","hex"]
     }
   ],
