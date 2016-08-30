@@ -1,6 +1,6 @@
 <span class="mobile btn-mobile-menu">
-  <i class="icon icon-list btn-mobile-menu__icon"></i>
-  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+  <i class="fa fa-bars btn-mobile-menu__icon"></i>
+  <i class="fa fa-times-circle btn-mobile-close__icon hidden"></i>
 </span>
 
 <header class="panel-cover" style="background-image: url(/images/cover.jpg)">
@@ -36,7 +36,7 @@
                 {% for net in site.data.cv.social %}
                   <li class="navigation__item">
                     <a href="{{ net.url }}" title="@{{ net.user }} on {{ net.label }}" target="_blank">
-                      <i class="icon icon-{{net.icon}}"></i>
+                      <i class="fa fa-{{net.icon}}"></i>
                       <span class="label">{{ net.label }}</span>
                     </a>
                   </li>
@@ -46,7 +46,7 @@
                 <!-- Email -->
                 <li class="navigation__item">
                   <a href="mailto:{{ site.data.cv.contact.email }}" title="Email {{ site.data.cv.contact.email }}" target="_blank">
-                    <i class="icon icon-mail"></i>
+                    <i class="fa fa-envelope"></i>
                     <span class="label">Email</span>
                   </a>
                 </li>
@@ -55,7 +55,7 @@
               <!-- RSS -->
               <li class="navigation__item">
                 <a href="/feed.xml" title="Subscribe" target="_blank">
-                  <i class="icon icon-rss"></i>
+                  <i class="fa fa-rss"></i>
                   <span class="label">RSS</span>
                 </a>
               </li>

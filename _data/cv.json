@@ -63,28 +63,28 @@
       "network": "GitHub",
       "user": "fazibear",
       "url": "https://github.com/fazibear",
-      "icon": "social-github"
+      "icon": "github"
     },
     {
       "label": "Twitter",
       "network": "Twitter",
       "user": "fazibear",
       "url": "https://twitter.com/fazibear",
-      "icon": "social-twitter"
+      "icon": "twitter"
     },
     {
       "label": "Medium",
       "network": "Medium",
       "user": "fazibear",
       "url": "https://medium.com/@fazibear",
-      "icon": "social-medium"
+      "icon": "medium"
     },
     {
       "label": "SoundCloud",
       "network": "SoundCloud",
       "user": "fazibear",
       "url": "https://soundcloud.com/fazibear",
-      "icon": "music"
+      "icon": "soundcloud"
     }
   ],
 
@@ -150,29 +150,29 @@
   "education": {
     "history": [
       {
-        "institution": "Warszawska Wyższa Szkoła Informatyki",
+        "institution": "Warsaw School Of Computer Science",
         "title": "Engineer",
-        "url": "http://www.wwsi.edu.pl/",
+        "url": "http://wwcs.eu/",
         "start": "2003-09",
         "end": "2009-05",
-        "summary": "Inżynieria Oprogramowania",
+        "summary": "Software Engineering",
         "curriculum": ["CCNA Course 1-2", "Windows 2003 Server Administration Course"]
       },
       {
-        "institution": "Studium Ekonomii I Biznesu",
+        "institution": "Study of Economy and Business",
         "title": "Technician",
         "url": "http://cek.home.pl/",
         "start": "2002-09",
         "end": "2003-06",
-        "summary": "Programowanie i Bazy Danych"
+        "summary": "Programming and Databases"
       },
       {
-        "institution": "Technikum Elektroniczno Mechaniczne",
+        "institution": "Electronic Technical High School",
         "title": "Technician",
         "url": "http://zseil.edu.pl/",
         "start": "1997-09",
         "end": "2002-06",
-        "summary": "Elektronika Ogólna"
+        "summary": "Electronics"
       }
     ]
   },
@@ -219,12 +219,11 @@
   "languages": [
     {
       "language": "Polish",
-      "level": "Native"
+      "level": "native"
     },
     {
       "language": "English",
-      "level": "communicative",
-      "years": 10
+      "level": "communicative"
     }
   ],
   "interests": [

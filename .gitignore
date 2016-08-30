@@ -1,3 +1,5 @@
+bin/
 .DS_Store
 _site
-medium.sh
+_data/secret.json
+*.pdf

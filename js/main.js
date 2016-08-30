@@ -48,8 +48,8 @@ forEach('.btn-mobile-menu', function(button){
     toggle('.navigation-wrapper', 'visible');
     toggle('.navigation-wrapper', 'animated');
     toggle('.navigation-wrapper', 'bounceInDown');
-    toggle('.btn-mobile-menu__icon', 'icon-list');
-    toggle('.btn-mobile-menu__icon', 'icon-x-circle');
+    toggle('.btn-mobile-menu__icon', 'fa-bars');
+    toggle('.btn-mobile-menu__icon', 'fa-times-circle');
     toggle('.btn-mobile-menu__icon', 'animated');
     toggle('.btn-mobile-menu__icon', 'fadeIn');
   });
@@ -58,8 +58,8 @@ forEach('.btn-mobile-menu', function(button){
 forEach('.navigation-wrapper .blog-button', function(button, i){
   button.addEventListener("click", function(e) {
     toggle('.navigation-wrapper', 'visible');
-    toggle('.btn-mobile-menu__icon', 'icon-list');
-    toggle('.btn-mobile-menu__icon', 'icon-x-circle');
+    toggle('.btn-mobile-menu__icon', 'fa-bars');
+    toggle('.btn-mobile-menu__icon', 'fa-times-circle');
     toggle('.btn-mobile-menu__icon', 'animated');
     toggle('.btn-mobile-menu__icon', 'fadeIn');
   });
