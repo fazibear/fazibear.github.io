@@ -45,15 +45,6 @@
       "start": "2007-04",
       "summary": "Colorized string on console using ruby.",
       "keywords": ["ruby","ansi"]
-    },
-    {
-      "title": "Blog",
-      "category": "personal",
-      "role": "creator",
-      "url": "http://fazibear.github.io/blog",
-      "description": "My programming blog. Powered by Jekyll.",
-      "summary": "All about programming",
-      "keywords": ["jekyll","ruby","html5","javascript"]
     }
   ],
 
@@ -183,14 +174,14 @@
         "name": "Programming",
         "level": 8,
         "skills": [
-          "ruby", "rails", "rspec", "capybara", "resque", "sinatra", "spree","node.js", "xmlrpc", "amqp", "xmpp", "elixir", "phoenix", "crystal", "rubymotion"
+          "elixir", "phoenix", "ecto", "ruby", "rails", "rspec", "capybara", "resque", "sinatra", "spree", "node.js", "xmlrpc", "amqp", "xmpp", "crystal", "rubymotion"
         ]
       },
       {
         "name": "Web",
         "level": 7,
         "skills": [
-          "html", "css", "bootstrap", "json", "jsonp", "xml", "xslt", "rest", "ajax", "javascript", "coffeescript", "jquery", "react", "ember.js", "angular", "opal", "oauth", "websocket", "volt", "meteor"
+          "html", "css", "graphql", "react", "redux", "reflux", "ember.js", "angular", "opal", "bootstrap", "json", "jsonp", "xml", "xslt", "rest", "ajax", "javascript", "coffeescript", "jquery", "oauth", "websocket", "volt", "meteor"
         ]
       },
       {
