@@ -102,8 +102,12 @@ layout: null
         {% endfor %}
       </section><!--//section-->
 
+      <div class="page-break">
+        <!--page break-->
+      </div>
+
       <section class="section projects-section">
-        <h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>
+        <h2 class="section-title"><i class="fa fa-archive"></i>Open Source Projects</h2>
         {% for project in site.data.cv.projects %}
         <div class="item">
           <span class="project-title"><a href="{{ project.url }}">{{ project.title }}</a></span> -
@@ -115,14 +119,20 @@ layout: null
       <section class="skills-section section">
         <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
         <div class="skillset">
+            <table>
+              <tbody>
           {% for set in site.data.cv.skills.sets %}
-          <div class="item">
-            <h3 class="level-title">{{ set.name }}</h3>
+              <tr>
+                <th><h3 class="level-title">{{ set.name }}</h3></th>
+                <td>
             {% for skill in set.skills %}
               <span class="badge">{{ skill }}</span>
             {% endfor %}
-          </div><!--//item-->
+                </td>
+              </tr>
           {% endfor %}
+              </tbody>
+            </table>
         </div>
       </section><!--//skills-section-->
     </div><!--//main-body-->

@@ -223,7 +223,6 @@ p {
   font-size: 14px;
   margin-top: 0;
   margin-bottom: 12px;
-  height: 40px;
 }
 .skillset .level-bar {
   height: 12px;
@@ -261,4 +260,18 @@ p {
 
 .badge {
   background-color: #2e4049;
+}
+
+.skills-section table th {
+  padding-right: 10%;
+}
+
+.skills-section table th,
+.skills-section table td {
+  padding-bottom: 15px;
+}
+
+.page-break {
+  padding-top: 60px;
+  page-break-before:always;
 }
