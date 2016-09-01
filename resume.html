@@ -92,6 +92,11 @@ layout: null
           </div><!--//meta-->
           <div class="details">
             <p>{{ exp.summary }}</p>
+            <ul>
+              {% for highlight in exp.highlights %}
+              <li>{{  highlight }}</li>
+              {% endfor %}
+            </ul>
           </div><!--//details-->
         </div><!--//item-->
         {% endfor %}

@@ -129,6 +129,13 @@
         "url": "http://www.elpassion.com/",
         "position": "Senior  Developer",
         "summary": "Development of various sites in Ruby, Elixir, JavaScript.",
+        "highlights": [
+          "Developing and maintaining frontend applications",
+          "Developing and maintaining backend applications",
+          "Elixir inventor",
+          "Team leader of developers",
+          "Scrum master"
+        ],
         "start": "2014-12",
         "keywords": ["ruby","rails","sinatra","grape","javascript","solr","elasticsearch","resque","rspec","redis","postgres","memchached","json","git","docker","elixir","phoenix","graphql","websocket","aws","s3","rds","agile","scrum","jira"]
       },
@@ -137,6 +144,12 @@
         "url": "https://arena.pl/",
         "position": "Senior Ruby Developer",
         "summary": "Development of big e-commerce site for arena.pl.",
+        "highlights": [
+          "Developing and maintaining frontend",
+          "Developing and maintaining backend",
+          "Developing and maintaining full text search",
+          "Managing and configure server architecture"
+        ],
         "start": "2014-03",
         "end": "2014-11",
         "keywords": ["ruby","rails","javascript","jquery","solr","resque","rspec","redis","mysql","spree","memchached","json","git","varnish","haproxy","docker","jira"]
@@ -146,6 +159,12 @@
         "url": "http://www.cubiware.com/",
         "position": "Senior Ruby Developer",
         "summary": "Backend application development for cable television STB.",
+        "highlights": [
+          "Developing and maintaining soap api for STB",
+          "Developing and maintaining soap json for STB",
+          "Backend optimization",
+          "Designing new backend architecture"
+        ],
         "start": "2013-03",
         "end": "2014-03",
         "keywords": ["ruby","rails","sinatra","resque","rspec","redis","mysql","memcached","json", "xml", "xmlrpc", "git", "varnish", "haproxy","scrum","agile"]
@@ -154,7 +173,14 @@
         "employer": "GG Network S.A.",
         "url": "http://www.gg.pl/",
         "position": "Ruby / Javascript Developer",
-        "summary": "Development and maintanance of blip.pl - polish twitter like service.",
+        "summary": "blip.pl - polish twitter like site.",
+        "highlights": [
+          "Developing and maintaining forontend",
+          "Developing and maintaining backend queues",
+          "Developing and maintaining background workers",
+          "Developing and maintaining users api",
+          "Contact with blip.pl users/api consumers"
+        ],
         "start": "2008-05",
         "end": "2013-02",
         "keywords": ["ruby","rails","rspec","amqp","redis","sphinx","mysql","memchached","json","svn","varnish","haproxy","scrum","agile"]
@@ -164,6 +190,10 @@
         "url": "http://www.activeweb.pl/",
         "position": "Ruby / Javascript Developer",
         "summary": "Development and maintanance of variurs web pages.",
+        "highlights": [
+          "Developing and maintaining OpenID service",
+          "Developing and maintaining Adobe Flash clips"
+        ],
         "start": "2007-10",
         "end": "2008-07",
         "keywords": ["ruby","rails","rspec","mysql","ajax","rest","soap","openid","wap","svn","flash"]
@@ -173,6 +203,13 @@
         "url": "http://www.eo.pl",
         "position": "Lead Web Developer / Java EE Developer",
         "summary": "Leader of Web Development Team, Java EE Backend programmer.",
+        "highlights": [
+          "Developing and maintaining J2EE application",
+          "Developing and maintaining layouts and templates layer",
+          "Code quality reviews",
+          "Team leader of developers",
+          "Analysis of customer requirements"
+        ],
         "start": "2004-11",
         "end": "2007-07",
         "keywords": ["j2ee","hibernate","spring","velocity","postgres","javascript","html","css","xml","xslt","selenium","svn"]
