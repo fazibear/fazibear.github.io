@@ -34,7 +34,7 @@ layout: null
           {% endif %}
           <li class="website"><i class="fa fa-globe"></i><a href="{{ site.data.cv.contact.website }}" target="_blank">{{ site.data.cv.contact.website }}</a></li>
           {% for net in site.data.cv.social %}
-            <li class="linkedin"><i class="fa fa-{{ net.icon }}"></i><a href="#" target="_blank">{{ net.url }}</a></li>
+          <li class="linkedin"><i class="fa fa-{{ net.icon }}"></i><a href="{{ net.url }}" target="_blank">{{ net.url }}</a></li>
           {% endfor %}
         </ul>
       </div><!--//contact-container-->
