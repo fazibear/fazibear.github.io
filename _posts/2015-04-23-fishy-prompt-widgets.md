@@ -10,7 +10,7 @@ medium_link: https://medium.com/@fazibear/59fd534869f0
 ---
 Fish is a nice shell, its nice, lite, fast, and have a lot of features. One of them is `universal variables`. This variables are shared across sessions. This is very useful when I want to have a nice handy information in the prompt. We don't want to execute command every time thats prompt appears. Lets use them.
 
-This is what I'm talking about! ![fish widgets](/img/fish_widgets.png)
+This is what I'm talking about! ![fish widgets](/image/fish_widgets.png)
 
 Widgets are refreshed in background, lets use `cron`. Write a little script that gather system information and set some variable that can be displayed in prompt.
 Create a `~/.config/fish/functions/prompt_info_update.fish`
