@@ -522,7 +522,8 @@ nav {
 .navigation--social {
   /* margin-left: 1.5em; */ }
   .navigation--social a {
-    padding: 10px 12px 10px 14px; }
+    padding: 10px 12px 10px 14px;
+    border: 0px }
     .navigation--social a .label {
       display: none; }
     .navigation--social a .fa {
