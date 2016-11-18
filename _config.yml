@@ -13,7 +13,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-gems:
+# gems:
 #  - jekyll-crosspost-to-medium
 
 jekyll-crosspost_to_medium:
