@@ -6,6 +6,8 @@ var filesToCache = [
   '/css/main.css',
   '/js/main.js',
   '/images/cover.jpg',
+  '/',
+  '/blog',
 
   {% for page in site.html_pages %}
   '{{ page.url }}',
