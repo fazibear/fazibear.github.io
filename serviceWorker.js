@@ -4,6 +4,8 @@ layout: null
 var cacheName = 'fazibear.me-cache-v1';
 var filesToCache = [
   '/css/main.css',
+  '/css/uno.css',
+  '/css/monokai.css',
   '/js/main.js',
   '/images/cover.jpg',
   '/',
