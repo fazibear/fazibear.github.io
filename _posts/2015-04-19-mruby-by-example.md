@@ -4,8 +4,6 @@ title: MRuby by Example
 tags:
   - mruby
   - documentation
-crosspost_to_medium: true
-medium_link: https://medium.com/@fazibear/4f5179a617b3
 ---
 In mean time I was playing with MRuby. Embeded it into a VST and describe in my last [post]({% post_url 2015-04-13-mruby-within-vst %}).
 The results of it is an [MRubyByExample](https://mrubybyexample.fazibear.me/). Its well documented snippets of C and ruby code used with MRuby.

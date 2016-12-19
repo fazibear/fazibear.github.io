@@ -6,7 +6,7 @@ tags:
 - mruby
 - vst
 crosspost_to_medium: true
-medium_link: https://medium.com/@fazibear/25487290f0c0
+medium_link: https://medium.com/@fazibear/330796afd06
 ---
 
 From time to time, I want to just do something more than a Rails app. Recently I just looked at MRuby.
