@@ -1,0 +1,11 @@
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/serviceWorker.js').then(function(reg) {
+    reg.unregister().then(function(res) {
+      if(res) {
+        console.log("[*] ServiceWorker is uninstalled!");
+      }
+    });
+  });
+}
+</script>
