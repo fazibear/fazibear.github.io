@@ -88,8 +88,8 @@
       "role": "creator",
       "url": "https://hex.pm/",
       "repo": "https://github.com/fazibear",
-      "summary": "My hex.pm packages: airbtakex, export, ex_ical.",
-      "description": "My hex.pm packages: airbtakex, export, ex_ical.",
+      "summary": "My hex.pm packages: airbtakex, export, ex_ical, defql",
+      "description": "My hex.pm packages: airbtakex, export, ex_ical, defql",
       "keywords": ["elixir","hex"]
     }
   ],
