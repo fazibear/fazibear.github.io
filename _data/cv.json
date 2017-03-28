@@ -151,7 +151,7 @@
         "highlights": [
           "Developing and maintaining frontend",
           "Developing and maintaining backend",
-          "Developing and maintaining full text search",
+          "Developing and maintaining full-text search",
           "Managing and configure server architecture"
         ],
         "start": "2014-03",
@@ -164,7 +164,7 @@
         "position": "Senior Ruby Developer",
         "summary": "Backend application development for cable television STB.",
         "highlights": [
-          "Developing and maintaining soap api for STB",
+          "Developing and maintaining soap API for STB",
           "Developing and maintaining soap json for STB",
           "Backend optimization",
           "Designing new backend architecture"
@@ -177,13 +177,13 @@
         "employer": "GG Network S.A.",
         "url": "http://www.gg.pl/",
         "position": "Ruby / Javascript Developer",
-        "summary": "blip.pl - Polish Twitter like site.",
+        "summary": "blip.pl - Polish Twitter-like site.",
         "highlights": [
           "Developing and maintaining frontend",
           "Developing and maintaining backend queues",
           "Developing and maintaining background workers",
-          "Developing and maintaining users api",
-          "Contact with blip.pl users/api consumers"
+          "Developing and maintaining users API",
+          "Contact with blip.pl Users/API consumers"
         ],
         "start": "2008-05",
         "end": "2013-02",
@@ -193,7 +193,7 @@
         "employer": "Activeweb Medical Solutions",
         "url": "http://www.activeweb.pl/",
         "position": "Ruby / Javascript Developer",
-        "summary": "Development and maintanance of various web pages.",
+        "summary": "Development and maintenance of various web pages.",
         "highlights": [
           "Developing and maintaining OpenID service",
           "Developing and maintaining Adobe Flash clips"
