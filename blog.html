@@ -4,7 +4,6 @@ layout: default
 
 <div class="main-post-list">
   <h2>Blog Archive</h2>
-  <hr class="post-list__divider">
   <ol class="post-list">
     {% for post in site.posts %}
       <li>
@@ -16,7 +15,6 @@ layout: default
           &#8226;
           <span class="readtime">{% include readtime.html %}</span>
         </div>
-        <hr class="post-list__divider">
       </li>
     {% endfor %}
   </ol>
